@@ -1,0 +1,32 @@
+production:
+  database:
+    host: production-host
+    port: 5432
+    username: prod-user
+    password: prod-password
+
+  zerodha_login:
+    username: DQ5843
+    password: YashPatel1771
+    zerodha_url: https://kite.zerodha.com/
+    
+  chrome_driver:
+    driver_path: C:\Python\Zerodha Login\Chrome Driver\chromedriver.exe
+    
+   http_cookie:
+    file_path: C:\Python\Zerodha Login\HTTP Cookie\HTTP Cookie.txt
+    
+   log_folder:
+    log_file_path: C:\Python\Zerodha Login\Log
+
+Development:
+  database:
+    host: development-host
+    port: 5432
+    username: dev-user
+    password: dev-password
+
+  zerodha_login:
+    username: DQ5843
+    password: YashPatel1771
+    zerodha_url: https://kite.zerodha.com/

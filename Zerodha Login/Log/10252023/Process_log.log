@@ -1,0 +1,246 @@
+2023-10-25 12:14:04,423 : INFO :** Zerodha Login process started in WBZ-IN-C626G63** 
+2023-10-25 12:14:17,819 : DEBUG :POST http://127.0.0.1:52229/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-25 12:14:17,822 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:52229
+2023-10-25 12:14:18,725 : DEBUG :http://127.0.0.1:52229 "POST /session HTTP/1.1" 200 885
+2023-10-25 12:14:18,729 : DEBUG :Finished Request
+2023-10-25 12:14:30,406 : DEBUG :POST http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/url {"url": "https://kite.zerodha.com/"}
+2023-10-25 12:14:30,562 : DEBUG :http://127.0.0.1:52229 "POST /session/58cbf2c06d9a0f4d17967cbdebefbfb2/url HTTP/1.1" 200 14
+2023-10-25 12:14:30,563 : DEBUG :Finished Request
+2023-10-25 12:14:30,565 : INFO :Chrome driver has been started and loaded URL: https://kite.zerodha.com/
+2023-10-25 12:14:36,575 : DEBUG :POST http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/elements {"using": "css selector", "value": "#userid"}
+2023-10-25 12:14:36,605 : DEBUG :http://127.0.0.1:52229 "POST /session/58cbf2c06d9a0f4d17967cbdebefbfb2/elements HTTP/1.1" 200 97
+2023-10-25 12:14:36,606 : DEBUG :Finished Request
+2023-10-25 12:14:36,607 : DEBUG :POST http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/clear {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:36,654 : DEBUG :http://127.0.0.1:52229 "POST /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/clear HTTP/1.1" 200 14
+2023-10-25 12:14:36,655 : DEBUG :Finished Request
+2023-10-25 12:14:46,802 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:46,821 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 200 69
+2023-10-25 12:14:46,821 : DEBUG :Finished Request
+2023-10-25 12:14:46,821 : DEBUG :POST http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/execute/sync {"script": "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()", "args": [{"ELEMENT": "930392D11034A9F3E06EC69E953C9201_element_13", "element-6066-11e4-a52e-4f735466cecf": "930392D11034A9F3E06EC69E953C9201_element_13"}], "id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:46,827 : DEBUG :http://127.0.0.1:52229 "POST /session/58cbf2c06d9a0f4d17967cbdebefbfb2/execute/sync HTTP/1.1" 200 225
+2023-10-25 12:14:46,827 : DEBUG :Finished Request
+2023-10-25 12:14:46,827 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:46,834 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 200 79
+2023-10-25 12:14:46,834 : DEBUG :Finished Request
+2023-10-25 12:14:46,834 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:47,036 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot HTTP/1.1" 200 940
+2023-10-25 12:14:47,036 : DEBUG :Finished Request
+2023-10-25 12:14:47,036 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:47,151 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot HTTP/1.1" 200 1072
+2023-10-25 12:14:47,152 : DEBUG :Finished Request
+2023-10-25 12:14:47,152 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:47,167 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 200 79
+2023-10-25 12:14:47,167 : DEBUG :Finished Request
+2023-10-25 12:14:47,168 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/name {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:47,174 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/name HTTP/1.1" 200 17
+2023-10-25 12:14:47,174 : DEBUG :Finished Request
+2023-10-25 12:14:47,174 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/text {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:47,186 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/text HTTP/1.1" 200 12
+2023-10-25 12:14:47,187 : DEBUG :Finished Request
+2023-10-25 12:14:51,883 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:51,893 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 200 79
+2023-10-25 12:14:51,893 : DEBUG :Finished Request
+2023-10-25 12:14:51,893 : DEBUG :POST http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/execute/sync {"script": "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()", "args": [{"ELEMENT": "930392D11034A9F3E06EC69E953C9201_element_13", "element-6066-11e4-a52e-4f735466cecf": "930392D11034A9F3E06EC69E953C9201_element_13"}], "id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:51,898 : DEBUG :http://127.0.0.1:52229 "POST /session/58cbf2c06d9a0f4d17967cbdebefbfb2/execute/sync HTTP/1.1" 200 225
+2023-10-25 12:14:51,898 : DEBUG :Finished Request
+2023-10-25 12:14:51,899 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:51,932 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 200 79
+2023-10-25 12:14:51,932 : DEBUG :Finished Request
+2023-10-25 12:14:51,933 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:52,088 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot HTTP/1.1" 200 1000
+2023-10-25 12:14:52,088 : DEBUG :Finished Request
+2023-10-25 12:14:52,088 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:52,162 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot HTTP/1.1" 200 1072
+2023-10-25 12:14:52,163 : DEBUG :Finished Request
+2023-10-25 12:14:52,163 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:52,171 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 200 79
+2023-10-25 12:14:52,172 : DEBUG :Finished Request
+2023-10-25 12:14:52,172 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/name {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:52,175 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/name HTTP/1.1" 200 17
+2023-10-25 12:14:52,175 : DEBUG :Finished Request
+2023-10-25 12:14:52,175 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/text {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:52,182 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/text HTTP/1.1" 200 12
+2023-10-25 12:14:52,182 : DEBUG :Finished Request
+2023-10-25 12:14:59,334 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,335 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 404 961
+2023-10-25 12:14:59,335 : DEBUG :Finished Request
+2023-10-25 12:14:59,356 : DEBUG :POST http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/execute/sync {"script": "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()", "args": [{"ELEMENT": "930392D11034A9F3E06EC69E953C9201_element_13", "element-6066-11e4-a52e-4f735466cecf": "930392D11034A9F3E06EC69E953C9201_element_13"}], "id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,357 : DEBUG :http://127.0.0.1:52229 "POST /session/58cbf2c06d9a0f4d17967cbdebefbfb2/execute/sync HTTP/1.1" 404 961
+2023-10-25 12:14:59,357 : DEBUG :Finished Request
+2023-10-25 12:14:59,358 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,359 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 404 961
+2023-10-25 12:14:59,359 : DEBUG :Finished Request
+2023-10-25 12:14:59,359 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,360 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot HTTP/1.1" 404 961
+2023-10-25 12:14:59,360 : DEBUG :Finished Request
+2023-10-25 12:14:59,361 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,361 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/screenshot HTTP/1.1" 404 961
+2023-10-25 12:14:59,363 : DEBUG :Finished Request
+2023-10-25 12:14:59,363 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,365 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/rect HTTP/1.1" 404 961
+2023-10-25 12:14:59,365 : DEBUG :Finished Request
+2023-10-25 12:14:59,365 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/name {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,366 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/name HTTP/1.1" 404 961
+2023-10-25 12:14:59,366 : DEBUG :Finished Request
+2023-10-25 12:14:59,367 : DEBUG :GET http://127.0.0.1:52229/session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/text {"id": "930392D11034A9F3E06EC69E953C9201_element_13"}
+2023-10-25 12:14:59,368 : DEBUG :http://127.0.0.1:52229 "GET /session/58cbf2c06d9a0f4d17967cbdebefbfb2/element/930392D11034A9F3E06EC69E953C9201_element_13/text HTTP/1.1" 404 961
+2023-10-25 12:14:59,368 : DEBUG :Finished Request
+2023-10-25 12:19:40,018 : INFO :** Zerodha Login process started in WBZ-IN-C626G63** 
+2023-10-25 12:19:40,579 : DEBUG :POST http://127.0.0.1:52515/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-25 12:19:40,582 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:52515
+2023-10-25 12:19:41,462 : DEBUG :http://127.0.0.1:52515 "POST /session HTTP/1.1" 200 884
+2023-10-25 12:19:41,468 : DEBUG :Finished Request
+2023-10-25 12:19:41,470 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/url {"url": "https://kite.zerodha.com/"}
+2023-10-25 12:19:42,345 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/url HTTP/1.1" 200 14
+2023-10-25 12:19:42,345 : DEBUG :Finished Request
+2023-10-25 12:19:42,346 : INFO :Chrome driver has been started and loaded URL: https://kite.zerodha.com/
+2023-10-25 12:19:48,350 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/elements {"using": "css selector", "value": "#userid"}
+2023-10-25 12:19:48,380 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/elements HTTP/1.1" 200 97
+2023-10-25 12:19:48,382 : DEBUG :Finished Request
+2023-10-25 12:19:48,382 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_13/clear {"id": "05AEB55EA15811D6F47E939B8268BE5E_element_13"}
+2023-10-25 12:19:48,422 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_13/clear HTTP/1.1" 200 14
+2023-10-25 12:19:48,423 : DEBUG :Finished Request
+2023-10-25 12:19:48,423 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_13/value {"text": "DQ5843", "value": ["D", "Q", "5", "8", "4", "3"], "id": "05AEB55EA15811D6F47E939B8268BE5E_element_13"}
+2023-10-25 12:19:48,461 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_13/value HTTP/1.1" 200 14
+2023-10-25 12:19:48,461 : DEBUG :Finished Request
+2023-10-25 12:19:48,461 : INFO :User name has entered: DQ5843
+2023-10-25 12:19:48,462 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/elements {"using": "css selector", "value": "#password"}
+2023-10-25 12:19:48,472 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/elements HTTP/1.1" 200 97
+2023-10-25 12:19:48,473 : DEBUG :Finished Request
+2023-10-25 12:19:48,473 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_16/clear {"id": "05AEB55EA15811D6F47E939B8268BE5E_element_16"}
+2023-10-25 12:19:48,489 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_16/clear HTTP/1.1" 200 14
+2023-10-25 12:19:48,489 : DEBUG :Finished Request
+2023-10-25 12:19:48,490 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_16/value {"text": "YashPatel1771", "value": ["Y", "a", "s", "h", "P", "a", "t", "e", "l", "1", "7", "7", "1"], "id": "05AEB55EA15811D6F47E939B8268BE5E_element_16"}
+2023-10-25 12:19:48,547 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_16/value HTTP/1.1" 200 14
+2023-10-25 12:19:48,548 : DEBUG :Finished Request
+2023-10-25 12:19:48,549 : INFO :Password  has entered: YashPatel1771
+2023-10-25 12:19:48,549 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/element {"using": "xpath", "value": "//button[@class='button-orange wide']"}
+2023-10-25 12:19:48,560 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/element HTTP/1.1" 200 95
+2023-10-25 12:19:48,561 : DEBUG :Finished Request
+2023-10-25 12:19:48,561 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_21/click {"id": "05AEB55EA15811D6F47E939B8268BE5E_element_21"}
+2023-10-25 12:19:48,600 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/element/05AEB55EA15811D6F47E939B8268BE5E_element_21/click HTTP/1.1" 200 14
+2023-10-25 12:19:48,600 : DEBUG :Finished Request
+2023-10-25 12:19:48,601 : INFO :Succesfully clicked on submit button for OTP
+2023-10-25 12:20:13,609 : DEBUG :POST http://127.0.0.1:52515/session/205370328f6e9dd82211fe2c201127e9/element {"using": "xpath", "value": "//button[@class='button button-blue']"}
+2023-10-25 12:20:13,632 : DEBUG :http://127.0.0.1:52515 "POST /session/205370328f6e9dd82211fe2c201127e9/element HTTP/1.1" 404 1070
+2023-10-25 12:20:13,632 : DEBUG :Finished Request
+2023-10-25 12:45:28,970 : INFO :** Zerodha Login process started in WBZ-IN-C626G63** 
+2023-10-25 12:45:29,540 : DEBUG :POST http://127.0.0.1:50799/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-25 12:45:29,541 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:50799
+2023-10-25 12:45:30,433 : DEBUG :http://127.0.0.1:50799 "POST /session HTTP/1.1" 200 885
+2023-10-25 12:45:30,436 : DEBUG :Finished Request
+2023-10-25 12:45:30,437 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/url {"url": "https://kite.zerodha.com/"}
+2023-10-25 12:45:30,576 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/url HTTP/1.1" 200 14
+2023-10-25 12:45:30,576 : DEBUG :Finished Request
+2023-10-25 12:45:30,577 : INFO :Chrome driver has been started and loaded URL: https://kite.zerodha.com/
+2023-10-25 12:45:36,590 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/elements {"using": "css selector", "value": "#userid"}
+2023-10-25 12:45:36,616 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/elements HTTP/1.1" 200 97
+2023-10-25 12:45:36,618 : DEBUG :Finished Request
+2023-10-25 12:45:36,619 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_13/clear {"id": "C7F88C87C539BBEC4C4ED66BBA8FE588_element_13"}
+2023-10-25 12:45:36,660 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_13/clear HTTP/1.1" 200 14
+2023-10-25 12:45:36,660 : DEBUG :Finished Request
+2023-10-25 12:45:36,660 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_13/value {"text": "DQ5843", "value": ["D", "Q", "5", "8", "4", "3"], "id": "C7F88C87C539BBEC4C4ED66BBA8FE588_element_13"}
+2023-10-25 12:45:36,716 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_13/value HTTP/1.1" 200 14
+2023-10-25 12:45:36,716 : DEBUG :Finished Request
+2023-10-25 12:45:36,717 : INFO :User name has entered: DQ5843
+2023-10-25 12:45:36,717 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/elements {"using": "css selector", "value": "#password"}
+2023-10-25 12:45:36,728 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/elements HTTP/1.1" 200 97
+2023-10-25 12:45:36,729 : DEBUG :Finished Request
+2023-10-25 12:45:36,729 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_16/clear {"id": "C7F88C87C539BBEC4C4ED66BBA8FE588_element_16"}
+2023-10-25 12:45:36,753 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_16/clear HTTP/1.1" 200 14
+2023-10-25 12:45:36,754 : DEBUG :Finished Request
+2023-10-25 12:45:36,754 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_16/value {"text": "YashPatel1771", "value": ["Y", "a", "s", "h", "P", "a", "t", "e", "l", "1", "7", "7", "1"], "id": "C7F88C87C539BBEC4C4ED66BBA8FE588_element_16"}
+2023-10-25 12:45:36,820 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_16/value HTTP/1.1" 200 14
+2023-10-25 12:45:36,820 : DEBUG :Finished Request
+2023-10-25 12:45:36,820 : INFO :Password  has entered: YashPatel1771
+2023-10-25 12:45:36,821 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/element {"using": "xpath", "value": "//button[@class='button-orange wide']"}
+2023-10-25 12:45:36,850 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/element HTTP/1.1" 200 95
+2023-10-25 12:45:36,851 : DEBUG :Finished Request
+2023-10-25 12:45:36,852 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_21/click {"id": "C7F88C87C539BBEC4C4ED66BBA8FE588_element_21"}
+2023-10-25 12:45:36,931 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/element/C7F88C87C539BBEC4C4ED66BBA8FE588_element_21/click HTTP/1.1" 200 14
+2023-10-25 12:45:36,931 : DEBUG :Finished Request
+2023-10-25 12:45:36,931 : INFO :Succesfully clicked on submit button for OTP
+2023-10-25 12:46:01,936 : DEBUG :POST http://127.0.0.1:50799/session/88c5dd5edc5390eafc7aae200e51d9ab/element {"using": "xpath", "value": "//button[@class='button button-blue']"}
+2023-10-25 12:46:01,953 : DEBUG :http://127.0.0.1:50799 "POST /session/88c5dd5edc5390eafc7aae200e51d9ab/element HTTP/1.1" 404 1070
+2023-10-25 12:46:01,954 : DEBUG :Finished Request
+2023-10-25 12:47:16,544 : INFO :** Zerodha Login process started in WBZ-IN-C626G63** 
+2023-10-25 12:47:17,094 : DEBUG :POST http://127.0.0.1:50950/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-25 12:47:17,096 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:50950
+2023-10-25 12:47:17,869 : DEBUG :http://127.0.0.1:50950 "POST /session HTTP/1.1" 200 885
+2023-10-25 12:47:17,873 : DEBUG :Finished Request
+2023-10-25 12:47:17,874 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/url {"url": "https://kite.zerodha.com/"}
+2023-10-25 12:47:18,836 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/url HTTP/1.1" 200 14
+2023-10-25 12:47:18,837 : DEBUG :Finished Request
+2023-10-25 12:47:18,837 : INFO :Chrome driver has been started and loaded URL: https://kite.zerodha.com/
+2023-10-25 12:47:24,842 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/elements {"using": "css selector", "value": "#userid"}
+2023-10-25 12:47:24,878 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/elements HTTP/1.1" 200 97
+2023-10-25 12:47:24,879 : DEBUG :Finished Request
+2023-10-25 12:47:24,880 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_13/clear {"id": "EE12C879A96042FB570067FDEF0A95E9_element_13"}
+2023-10-25 12:47:24,940 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_13/clear HTTP/1.1" 200 14
+2023-10-25 12:47:24,941 : DEBUG :Finished Request
+2023-10-25 12:47:24,941 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_13/value {"text": "DQ5843", "value": ["D", "Q", "5", "8", "4", "3"], "id": "EE12C879A96042FB570067FDEF0A95E9_element_13"}
+2023-10-25 12:47:24,988 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_13/value HTTP/1.1" 200 14
+2023-10-25 12:47:24,989 : DEBUG :Finished Request
+2023-10-25 12:47:24,989 : INFO :User name has entered: DQ5843
+2023-10-25 12:47:24,989 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/elements {"using": "css selector", "value": "#password"}
+2023-10-25 12:47:24,999 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/elements HTTP/1.1" 200 97
+2023-10-25 12:47:24,999 : DEBUG :Finished Request
+2023-10-25 12:47:24,999 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_16/clear {"id": "EE12C879A96042FB570067FDEF0A95E9_element_16"}
+2023-10-25 12:47:25,017 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_16/clear HTTP/1.1" 200 14
+2023-10-25 12:47:25,017 : DEBUG :Finished Request
+2023-10-25 12:47:25,018 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_16/value {"text": "YashPatel1771", "value": ["Y", "a", "s", "h", "P", "a", "t", "e", "l", "1", "7", "7", "1"], "id": "EE12C879A96042FB570067FDEF0A95E9_element_16"}
+2023-10-25 12:47:25,073 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_16/value HTTP/1.1" 200 14
+2023-10-25 12:47:25,073 : DEBUG :Finished Request
+2023-10-25 12:47:25,073 : INFO :Password  has entered: YashPatel1771
+2023-10-25 12:47:25,073 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/element {"using": "xpath", "value": "//button[@class='button-orange wide']"}
+2023-10-25 12:47:25,085 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/element HTTP/1.1" 200 95
+2023-10-25 12:47:25,085 : DEBUG :Finished Request
+2023-10-25 12:47:25,085 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_21/click {"id": "EE12C879A96042FB570067FDEF0A95E9_element_21"}
+2023-10-25 12:47:25,123 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/element/EE12C879A96042FB570067FDEF0A95E9_element_21/click HTTP/1.1" 200 14
+2023-10-25 12:47:25,124 : DEBUG :Finished Request
+2023-10-25 12:47:25,124 : INFO :Succesfully clicked on submit button for OTP
+2023-10-25 12:47:50,130 : DEBUG :POST http://127.0.0.1:50950/session/e6c6216852b004e45cb32855699c18bf/element {"using": "xpath", "value": "//button[@class='button button-blue']"}
+2023-10-25 12:47:50,164 : DEBUG :http://127.0.0.1:50950 "POST /session/e6c6216852b004e45cb32855699c18bf/element HTTP/1.1" 404 1070
+2023-10-25 12:47:50,165 : DEBUG :Finished Request
+2023-10-25 12:49:26,588 : INFO :** Zerodha Login process started in WBZ-IN-C626G63** 
+2023-10-25 12:49:27,172 : DEBUG :POST http://127.0.0.1:51178/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-25 12:49:27,175 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:51178
+2023-10-25 12:49:28,091 : DEBUG :http://127.0.0.1:51178 "POST /session HTTP/1.1" 200 885
+2023-10-25 12:49:28,094 : DEBUG :Finished Request
+2023-10-25 12:49:28,095 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/url {"url": "https://kite.zerodha.com/"}
+2023-10-25 12:49:28,757 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/url HTTP/1.1" 200 14
+2023-10-25 12:49:28,758 : DEBUG :Finished Request
+2023-10-25 12:49:28,759 : INFO :Chrome driver has been started and loaded URL: https://kite.zerodha.com/
+2023-10-25 12:49:34,763 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/elements {"using": "css selector", "value": "#userid"}
+2023-10-25 12:49:34,800 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/elements HTTP/1.1" 200 97
+2023-10-25 12:49:34,802 : DEBUG :Finished Request
+2023-10-25 12:49:34,803 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_13/clear {"id": "142732A920DB4169E8B5DA80A250C794_element_13"}
+2023-10-25 12:49:34,844 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_13/clear HTTP/1.1" 200 14
+2023-10-25 12:49:34,845 : DEBUG :Finished Request
+2023-10-25 12:49:34,845 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_13/value {"text": "DQ5843", "value": ["D", "Q", "5", "8", "4", "3"], "id": "142732A920DB4169E8B5DA80A250C794_element_13"}
+2023-10-25 12:49:34,903 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_13/value HTTP/1.1" 200 14
+2023-10-25 12:49:34,903 : DEBUG :Finished Request
+2023-10-25 12:49:34,904 : INFO :User name has entered: DQ5843
+2023-10-25 12:49:34,904 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/elements {"using": "css selector", "value": "#password"}
+2023-10-25 12:49:34,914 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/elements HTTP/1.1" 200 97
+2023-10-25 12:49:34,915 : DEBUG :Finished Request
+2023-10-25 12:49:34,915 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_16/clear {"id": "142732A920DB4169E8B5DA80A250C794_element_16"}
+2023-10-25 12:49:34,937 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_16/clear HTTP/1.1" 200 14
+2023-10-25 12:49:34,937 : DEBUG :Finished Request
+2023-10-25 12:49:34,938 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_16/value {"text": "YashPatel1771", "value": ["Y", "a", "s", "h", "P", "a", "t", "e", "l", "1", "7", "7", "1"], "id": "142732A920DB4169E8B5DA80A250C794_element_16"}
+2023-10-25 12:49:35,002 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_16/value HTTP/1.1" 200 14
+2023-10-25 12:49:35,002 : DEBUG :Finished Request
+2023-10-25 12:49:35,002 : INFO :Password  has entered: YashPatel1771
+2023-10-25 12:49:35,003 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/element {"using": "xpath", "value": "//button[@class='button-orange wide']"}
+2023-10-25 12:49:35,015 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/element HTTP/1.1" 200 95
+2023-10-25 12:49:35,016 : DEBUG :Finished Request
+2023-10-25 12:49:35,016 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_21/click {"id": "142732A920DB4169E8B5DA80A250C794_element_21"}
+2023-10-25 12:49:35,058 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/element/142732A920DB4169E8B5DA80A250C794_element_21/click HTTP/1.1" 200 14
+2023-10-25 12:49:35,058 : DEBUG :Finished Request
+2023-10-25 12:49:35,059 : INFO :Succesfully clicked on submit button for OTP
+2023-10-25 12:50:00,061 : DEBUG :POST http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d/element {"using": "xpath", "value": "//button[@class='button button-blue']"}
+2023-10-25 12:50:00,082 : DEBUG :http://127.0.0.1:51178 "POST /session/7ea759b6042909f508fcb360db3cb04d/element HTTP/1.1" 404 1070
+2023-10-25 12:50:00,082 : DEBUG :Finished Request
+2023-10-25 12:51:08,977 : DEBUG :DELETE http://127.0.0.1:51178/session/7ea759b6042909f508fcb360db3cb04d {}
+2023-10-25 12:51:09,013 : DEBUG :http://127.0.0.1:51178 "DELETE /session/7ea759b6042909f508fcb360db3cb04d HTTP/1.1" 200 14
+2023-10-25 12:51:09,013 : DEBUG :Finished Request
