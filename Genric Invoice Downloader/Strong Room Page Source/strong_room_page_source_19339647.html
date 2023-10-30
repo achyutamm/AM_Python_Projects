@@ -1,0 +1,341 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><title>
+	Invoice Viewer
+</title>
+    <script type="text/javascript" src="/ruxitagentjs_ICA27NVfhjqrux_10273230920145353.js" data-dtconfig="rid=RID_595264472|rpid=-1965370324|domain=payableslockbox.com|reportUrl=/rb_bf05569hdw|app=093b94edca357d6c|featureHash=ICA27NVfhjqrux|vcv=2|rdnt=1|uxrgce=1|bp=3|cuc=gthbxfd4|mel=100000|dpvc=1|md=mdcc1=aspan#ctl00_LoginView1_LoginName1|ssv=4|lastModification=1698131905397|tp=500,50,0,1|agentUri=/ruxitagentjs_ICA27NVfhjqrux_10273230920145353.js"></script><script type="text/javascript">
+        function calcIFrameSize(heightOffset, widthOffset) {
+            var myWidth = 0, myHeight = 0;
+            if (typeof (window.innerWidth) == 'number') {
+                //Non-IE
+                myWidth = window.innerWidth;
+                myHeight = window.innerHeight;
+            } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+                //IE 6+ in 'standards compliant mode'
+                myWidth = document.documentElement.clientWidth;
+                myHeight = document.documentElement.clientHeight;
+            } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+                //IE 4 compatible
+                myWidth = document.body.clientWidth;
+                myHeight = document.body.clientHeight;
+            }
+
+
+            if (document.getElementById('IFrame1')) {
+                document.getElementById('IFrame1').height = (myHeight - heightOffset - 10);
+            }
+
+            if (document.getElementById('PDFDiv')) {
+                document.getElementById('PanelDiv').style.webkitTransform = "scale(0.65)";
+                document.getElementById('PanelDiv').style.webkitTransformOrigin = "0 0";
+                document.getElementById('PDFDiv').style.overflow = "auto";
+                document.getElementById('PDFDiv').style.height = (myHeight - heightOffset + 250) + "px";
+                document.getElementById('PDFDiv').style.width = (myWidth - widthOffset + 500) + "px";
+                document.getElementById('PDFDiv').style.border = "1px solid black";
+                document.getElementById('PDFDiv').style.webkitOverflowScrolling = "touch";
+                document.getElementById('PDFImage').style.width = (myWidth - widthOffset + 500) + "px";
+            }
+
+        }
+
+    </script>
+<link href="../App_Themes/Default/Calendar.css" type="text/css" rel="stylesheet"><link href="../App_Themes/Default/Default.css" type="text/css" rel="stylesheet"><link href="../App_Themes/Default/GridView.css" type="text/css" rel="stylesheet"><link href="../App_Themes/Default/Menu.css" type="text/css" rel="stylesheet"></head>
+<body onload="calcIFrameSize(55,398);">
+    <form name="formInvoiceViewer" method="post" action="./invoiceviewer.aspx?i=19339647&amp;c=ARMSTRONG&amp;s=d4ffd140-4bcc-b149-307b-a9fbd4d5c755" id="formInvoiceViewer">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['formInvoiceViewer'];
+if (!theForm) {
+    theForm = document.formInvoiceViewer;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8C3E7F1A">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="6n44jJYpyGWs6YdwpL4Ds/8cazwcjViERr35m2geLsQGcmciDmK5IeuGCF2+o24jpWdfDMhdB1Ry46oQEAkd2/iqUMwkdne5QPjLu5gPvLHeqUxFF5+UPIkTlFnZ4WXfwyE/RswbJbiNHtktUqHB0TwJedjEKpad9ZdyCn979ZgytHpaEptS5rVdncom1n20z6lwfk1P+wNLY1z753i7XvqXd50bVt5ICY7Ilg0RsdI=">
+</div>
+
+
+
+        <table>
+            <tbody><tr valign="top">
+                <td style="width: 350px;" valign="top">
+                    <div class="ImageViewerLeft">
+                        <div style="text-align: left;">
+                            <div class="SubSectionHeader2">Payment Details</div>
+                            <div class="SubSectionContent3">
+                                <table cellpadding="3">
+                                    <tbody><tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentStatusLabel" class="LabelBold">Status:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelPaymentStatus"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentDetailCheckNumberLabel" class="LabelBold">Check Number:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelPaymentDetailCheckNumber">100836</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label5" class="LabelBold">Type:</span>
+                                        </td>
+                                        <td>
+
+                                            <span id="lblPaymentType">Check</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label22" class="LabelBold">Pay System:</span>
+                                        </td>
+                                        <td>
+                                            <span id="lblPaySystem"></span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentDetailAmountLabel" class="LabelBold">Amount:</span>
+                                        </td>
+                                        <td>$<span id="labelPaymentDetailAmount">13220.00</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentDetailDatePaidLabel" class="LabelBold">Date Paid:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelPaymentDetailDatePaid">7/21/2023</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentDetailCompanyLabel" class="LabelBold">Company:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelPaymentDetailCompany">Brandermill Community As</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelCompanyTaxIdLabel" class="LabelBold">Company Tax Id:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelCompanyTaxId">541036278</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPayFromAccount" class="LabelBold">Bank Account:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelPaymentAccount" style="color:Black;">BRM ALLIANCE OPS DDA: ******2132</span>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentDetailVendorLabel" class="LabelBold">Vendor:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelPaymentDetailVendor">GREEN'S TREE SERVICE</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label1" class="LabelBold">Vendor Address:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelVendorAddress">5625 HOLDEN RD&lt;/br&gt;N CHESTERFIELD, VA 23234</span>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label3" class="LabelBold">Vendor Phone:</span>
+                                        </td>
+                                        <td>
+                                            <span id="label6"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelMailedTo" class="LabelBold">Mail To:</span>
+                                        </td>
+                                        <td>
+                                            <span id="labelMailedToValue">Mail To Vendor</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentDetailVoidByLabel" class="LabelBold">Voided By:</span>
+                                        </td>
+                                        <td>
+                                            <span id="Label14" style="display:inline-block;width:10px;"></span>
+                                            <span id="labelPaymentDetailVoidedBy"></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="labelPaymentDetailVoidDateLabel" class="LabelBold">Voided Date:</span>
+                                        </td>
+                                        <td>
+                                            <span id="Label15" style="display:inline-block;width:10px;"></span>
+                                            <span id="labelPaymentDetailVoidDate"></span>
+                                        </td>
+                                    </tr>
+
+                                    
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label2" class="LabelBold">Last Modified By:</span>
+                                        </td>
+                                        <td>
+                                            <span id="lblLastModifiedBy"></span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label4" class="LabelBold" style="display:inline-block;width:140px;">Last Modified Date:</span>
+                                        </td>
+                                        <td>
+                                            <span id="lblLastModifiedDate"></span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label16" class="LabelBold">Date Created:</span>
+                                        </td>
+                                        <td>
+                                            <span id="lblDateCreated">7/21/2023 1:05:41 PM</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="invoiceViewerLeftColumn">
+                                            <span id="label18" class="LabelBold">Transaction Id:</span>
+                                        </td>
+                                        <td>
+                                            <span id="lblTransactionId">12625787</span>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                            <div class="SubSectionHeader2">Selected Invoice Origin:</div>
+                            <div class="SubSectionContent3">
+                                <div id="pnlOriginHistory" style="left: 20px; margin-left: 10px;">
+	
+                                    <div id="divOrigin">
+                                        <br>
+                                        <span id="Label9" style="display:inline-block;font-weight:bold;width:130px;">Origin:</span>
+                                        <span id="lblOrigin">C - Created</span>
+                                        <br>
+
+                                        <span id="Label11" style="display:inline-block;font-weight:bold;width:130px;">Created Date:</span>
+                                        <span id="lblReceivedDateInv">7/20/2023 7:53:40 AM</span>
+                                        <br>
+
+                                        <span id="Label13" style="display:inline-block;font-weight:bold;width:130px;">Email Message Id:</span>
+                                        <span id="lblEmailMessageId">9088693</span>
+ 
+                                    </div>
+
+                                    <div id="divEmailDetails">
+                                        <br>
+                                        <span id="Label10" style="color:Navy;font-size:Small;font-weight:bold;">Email</span>
+                                        <hr style="width: 100%;">
+
+                                        <span id="Label7" style="display:inline-block;font-weight:bold;width:130px;">From:</span>
+                                        <span id="lblFrom">James.Grooms@fsresidential.com</span>
+                                        <br>
+
+                                        <span id="Label8" style="display:inline-block;font-weight:bold;width:130px;">To:</span>
+                                        <span id="lblTo">apinvoices1 apinvoices1 &lt;fsrdcmetroinvoices@payableslockbox.com&gt;</span>
+                                        <br>
+
+                                        
+
+                                        <span id="Label17" style="display:inline-block;font-weight:bold;width:130px;">Received Date:</span>
+                                        <span id="lblReceivedDate">7/20/2023 7:53:40 AM</span>
+                                        <br>
+
+                                        <span id="Label19" style="display:inline-block;font-weight:bold;width:130px;">Status:</span>
+                                        <span id="lblStatus">Complete</span>
+                                        <br>
+
+                                        <span id="Label24" style="display:inline-block;font-weight:bold;width:130px;">Subject:</span>
+                                        <span id="lblSubject">new invoices for imp[ort into strongroom</span>
+ 
+                                    </div>
+
+                                
+</div>
+                            </div>
+                            <div class="SubSectionHeader2">Invoices Paid</div>
+                            <div class="SubSectionContent3">
+                                <div>
+	<table class="GridView" cellspacing="0" cellpadding="4" rules="all" border="1" id="gridviewPaymentInvoices" style="border-color:LightGrey;border-collapse:collapse;">
+		<tbody><tr class="HeaderStyle">
+			<th scope="col">Invoice</th><th scope="col">Act</th><th scope="col">Amount</th><th scope="col">View Doc</th>
+		</tr><tr class="RowStyle">
+			<td>314</td><td>&nbsp;</td><td>$2,300.00</td><td><a href="javascript:__doPostBack('gridviewPaymentInvoices','Select$0')">View</a></td>
+		</tr><tr class="AlternatingRowStyle">
+			<td>310</td><td>&nbsp;</td><td>$1,500.00</td><td><a href="javascript:__doPostBack('gridviewPaymentInvoices','Select$1')">View</a></td>
+		</tr><tr class="RowStyle">
+			<td>313</td><td>&nbsp;</td><td>$3,850.00</td><td><a href="javascript:__doPostBack('gridviewPaymentInvoices','Select$2')">View</a></td>
+		</tr><tr class="SelectedRowStyle">
+			<td>311</td><td>&nbsp;</td><td>$1,345.00</td><td><a href="javascript:__doPostBack('gridviewPaymentInvoices','Select$3')">View</a></td>
+		</tr><tr class="RowStyle">
+			<td>312</td><td>&nbsp;</td><td>$4,225.00</td><td><a href="javascript:__doPostBack('gridviewPaymentInvoices','Select$4')">View</a></td>
+		</tr>
+	</tbody></table>
+</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </td>
+                <td align="left" valign="top" width="100%">
+                    <div class="BorderedInnerDiv3">
+                        <div id="PDFContainer"><iframe id="IFrame1" src="pInvoiceImage.aspx?i=19339647&amp;docId=45083414&amp;c=ARMSTRONG&amp;s=d4ffd140-4bcc-b149-307b-a9fbd4d5c755" frameborder="0" scrolling="no" runat="server" height="638" width="100%" style="z-index: -1;"></iframe></div>
+                    </div>
+                </td>
+
+            </tr>
+
+        </tbody></table>
+
+    </form>
+
+
+
+</body></html>

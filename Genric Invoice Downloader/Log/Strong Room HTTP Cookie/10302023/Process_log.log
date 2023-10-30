@@ -1,0 +1,383 @@
+2023-10-30 16:59:30,271 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-30 16:59:30,889 : DEBUG :POST http://127.0.0.1:50979/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-30 16:59:30,890 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:50979
+2023-10-30 16:59:32,507 : DEBUG :http://127.0.0.1:50979 "POST /session HTTP/1.1" 200 884
+2023-10-30 16:59:32,517 : DEBUG :Finished Request
+2023-10-30 16:59:32,519 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/url {"url": "https://docview.payableslockbox.com/MyInvoices.aspx"}
+2023-10-30 16:59:36,280 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/url HTTP/1.1" 200 14
+2023-10-30 16:59:36,281 : DEBUG :Finished Request
+2023-10-30 16:59:36,281 : INFO :Chrome driver has been started and loaded URL: https://docview.payableslockbox.com/MyInvoices.aspx
+2023-10-30 16:59:42,288 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/elements {"using": "css selector", "value": "#UserName"}
+2023-10-30 16:59:42,309 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/elements HTTP/1.1" 200 97
+2023-10-30 16:59:42,310 : DEBUG :Finished Request
+2023-10-30 16:59:42,310 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_25/clear {"id": "8215FDA7068F6DBCDA1B7CF640E17C48_element_25"}
+2023-10-30 16:59:42,352 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_25/clear HTTP/1.1" 200 14
+2023-10-30 16:59:42,352 : DEBUG :Finished Request
+2023-10-30 16:59:42,353 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_25/value {"text": "bpbot.serviceaccount", "value": ["b", "p", "b", "o", "t", ".", "s", "e", "r", "v", "i", "c", "e", "a", "c", "c", "o", "u", "n", "t"], "id": "8215FDA7068F6DBCDA1B7CF640E17C48_element_25"}
+2023-10-30 16:59:42,446 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_25/value HTTP/1.1" 200 14
+2023-10-30 16:59:42,447 : DEBUG :Finished Request
+2023-10-30 16:59:42,448 : INFO :User name has entered: Applesauce1
+2023-10-30 16:59:42,448 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/elements {"using": "css selector", "value": "#Password"}
+2023-10-30 16:59:42,507 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/elements HTTP/1.1" 200 97
+2023-10-30 16:59:42,507 : DEBUG :Finished Request
+2023-10-30 16:59:42,508 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_32/clear {"id": "8215FDA7068F6DBCDA1B7CF640E17C48_element_32"}
+2023-10-30 16:59:42,553 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_32/clear HTTP/1.1" 200 14
+2023-10-30 16:59:42,554 : DEBUG :Finished Request
+2023-10-30 16:59:42,554 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_32/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "8215FDA7068F6DBCDA1B7CF640E17C48_element_32"}
+2023-10-30 16:59:42,633 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_32/value HTTP/1.1" 200 14
+2023-10-30 16:59:42,634 : DEBUG :Finished Request
+2023-10-30 16:59:42,634 : INFO :Password  has entered: Applesauce1
+2023-10-30 16:59:42,635 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "xpath", "value": "//input[@id='LoginButton']"}
+2023-10-30 16:59:42,665 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 95
+2023-10-30 16:59:42,666 : DEBUG :Finished Request
+2023-10-30 16:59:42,668 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_39/click {"id": "8215FDA7068F6DBCDA1B7CF640E17C48_element_39"}
+2023-10-30 16:59:42,771 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_39/click HTTP/1.1" 200 14
+2023-10-30 16:59:42,772 : DEBUG :Finished Request
+2023-10-30 16:59:42,773 : INFO :Succesfully clicked on login button
+2023-10-30 16:59:48,779 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "xpath", "value": "//input[@id='ButtonOK']"}
+2023-10-30 16:59:48,800 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 16:59:48,801 : DEBUG :Finished Request
+2023-10-30 16:59:48,801 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_219/click {"id": "8215FDA7068F6DBCDA1B7CF640E17C48_element_219"}
+2023-10-30 16:59:48,867 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/8215FDA7068F6DBCDA1B7CF640E17C48_element_219/click HTTP/1.1" 200 14
+2023-10-30 16:59:48,868 : DEBUG :Finished Request
+2023-10-30 16:59:48,868 : INFO :Succesfully clicked on OK buttnon
+2023-10-30 16:59:50,877 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationPrompt_rblSelVerify_0\"]"}
+2023-10-30 16:59:51,471 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 16:59:51,472 : DEBUG :Finished Request
+2023-10-30 16:59:51,473 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_255/click {"id": "E5BF82151871F1A4A4F504382B4399B0_element_255"}
+2023-10-30 16:59:51,580 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_255/click HTTP/1.1" 200 14
+2023-10-30 16:59:51,581 : DEBUG :Finished Request
+2023-10-30 16:59:51,581 : INFO :Succesfully clicked on check box sec question 1
+2023-10-30 16:59:54,595 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 16:59:54,611 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 16:59:54,611 : DEBUG :Finished Request
+2023-10-30 16:59:54,611 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_265/click {"id": "E5BF82151871F1A4A4F504382B4399B0_element_265"}
+2023-10-30 16:59:54,650 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_265/click HTTP/1.1" 200 14
+2023-10-30 16:59:54,651 : DEBUG :Finished Request
+2023-10-30 16:59:54,651 : INFO :Succesfully clicked on check Next button
+2023-10-30 16:59:57,665 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnwser1\"]"}
+2023-10-30 16:59:57,685 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 16:59:57,685 : DEBUG :Finished Request
+2023-10-30 16:59:57,686 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_314/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "E5BF82151871F1A4A4F504382B4399B0_element_314"}
+2023-10-30 16:59:57,744 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_314/value HTTP/1.1" 200 14
+2023-10-30 16:59:57,745 : DEBUG :Finished Request
+2023-10-30 16:59:57,745 : INFO :Security Question 1 has entered : Applesauce1 answer
+2023-10-30 16:59:57,746 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnswer2\"]"}
+2023-10-30 16:59:57,765 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 16:59:57,765 : DEBUG :Finished Request
+2023-10-30 16:59:57,767 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_326/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "E5BF82151871F1A4A4F504382B4399B0_element_326"}
+2023-10-30 16:59:57,860 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_326/value HTTP/1.1" 200 14
+2023-10-30 16:59:57,861 : DEBUG :Finished Request
+2023-10-30 16:59:57,861 : INFO :Security Question 2 has entered : Applesauce1 answer
+2023-10-30 16:59:58,871 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 16:59:58,879 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 16:59:58,879 : DEBUG :Finished Request
+2023-10-30 16:59:58,879 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_336/click {"id": "E5BF82151871F1A4A4F504382B4399B0_element_336"}
+2023-10-30 16:59:58,927 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_336/click HTTP/1.1" 200 14
+2023-10-30 16:59:58,928 : DEBUG :Finished Request
+2023-10-30 16:59:58,928 : INFO :Succesfully clicked on check Next button
+2023-10-30 17:00:00,941 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationUnknownDevice_TrustedDeviceOptions_rblSelDevice_1\"]"}
+2023-10-30 17:00:00,963 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 17:00:00,964 : DEBUG :Finished Request
+2023-10-30 17:00:00,964 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_385/click {"id": "E5BF82151871F1A4A4F504382B4399B0_element_385"}
+2023-10-30 17:00:00,998 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_385/click HTTP/1.1" 200 14
+2023-10-30 17:00:00,999 : DEBUG :Finished Request
+2023-10-30 17:00:00,999 : INFO :Succesfully clicked on device information pop-up
+2023-10-30 17:00:02,012 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:00:02,024 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element HTTP/1.1" 200 96
+2023-10-30 17:00:02,025 : DEBUG :Finished Request
+2023-10-30 17:00:02,026 : DEBUG :POST http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_396/click {"id": "E5BF82151871F1A4A4F504382B4399B0_element_396"}
+2023-10-30 17:00:02,077 : DEBUG :http://127.0.0.1:50979 "POST /session/07c79f477e986a4831e30695bb920a0a/element/E5BF82151871F1A4A4F504382B4399B0_element_396/click HTTP/1.1" 200 14
+2023-10-30 17:00:02,078 : DEBUG :Finished Request
+2023-10-30 17:00:02,079 : INFO :Succesfully clicked on device information Next button
+2023-10-30 17:00:10,093 : DEBUG :GET http://127.0.0.1:50979/session/07c79f477e986a4831e30695bb920a0a/cookie {}
+2023-10-30 17:00:10,945 : DEBUG :http://127.0.0.1:50979 "GET /session/07c79f477e986a4831e30695bb920a0a/cookie HTTP/1.1" 200 2037
+2023-10-30 17:00:10,946 : DEBUG :Finished Request
+2023-10-30 17:01:13,332 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-30 17:01:13,887 : DEBUG :POST http://127.0.0.1:51167/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-30 17:01:13,888 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:51167
+2023-10-30 17:01:15,884 : DEBUG :http://127.0.0.1:51167 "POST /session HTTP/1.1" 200 885
+2023-10-30 17:01:15,889 : DEBUG :Finished Request
+2023-10-30 17:01:15,891 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/url {"url": "https://docview.payableslockbox.com/MyInvoices.aspx"}
+2023-10-30 17:01:19,879 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/url HTTP/1.1" 200 14
+2023-10-30 17:01:19,882 : DEBUG :Finished Request
+2023-10-30 17:01:19,883 : INFO :Chrome driver has been started and loaded URL: https://docview.payableslockbox.com/MyInvoices.aspx
+2023-10-30 17:01:25,897 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/elements {"using": "css selector", "value": "#UserName"}
+2023-10-30 17:01:25,911 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/elements HTTP/1.1" 200 97
+2023-10-30 17:01:25,911 : DEBUG :Finished Request
+2023-10-30 17:01:25,912 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_25/clear {"id": "4BC2C2616D040EA7A6DAEFB435A88F20_element_25"}
+2023-10-30 17:01:25,960 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_25/clear HTTP/1.1" 200 14
+2023-10-30 17:01:25,961 : DEBUG :Finished Request
+2023-10-30 17:01:25,961 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_25/value {"text": "bpbot.serviceaccount", "value": ["b", "p", "b", "o", "t", ".", "s", "e", "r", "v", "i", "c", "e", "a", "c", "c", "o", "u", "n", "t"], "id": "4BC2C2616D040EA7A6DAEFB435A88F20_element_25"}
+2023-10-30 17:01:26,030 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_25/value HTTP/1.1" 200 14
+2023-10-30 17:01:26,031 : DEBUG :Finished Request
+2023-10-30 17:01:26,031 : INFO :User name has entered: Applesauce1
+2023-10-30 17:01:26,031 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/elements {"using": "css selector", "value": "#Password"}
+2023-10-30 17:01:26,050 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/elements HTTP/1.1" 200 97
+2023-10-30 17:01:26,051 : DEBUG :Finished Request
+2023-10-30 17:01:26,051 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_32/clear {"id": "4BC2C2616D040EA7A6DAEFB435A88F20_element_32"}
+2023-10-30 17:01:26,099 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_32/clear HTTP/1.1" 200 14
+2023-10-30 17:01:26,100 : DEBUG :Finished Request
+2023-10-30 17:01:26,101 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_32/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "4BC2C2616D040EA7A6DAEFB435A88F20_element_32"}
+2023-10-30 17:01:26,206 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_32/value HTTP/1.1" 200 14
+2023-10-30 17:01:26,207 : DEBUG :Finished Request
+2023-10-30 17:01:26,208 : INFO :Password  has entered: Applesauce1
+2023-10-30 17:01:26,208 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "xpath", "value": "//input[@id='LoginButton']"}
+2023-10-30 17:01:26,231 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 95
+2023-10-30 17:01:26,232 : DEBUG :Finished Request
+2023-10-30 17:01:26,232 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_39/click {"id": "4BC2C2616D040EA7A6DAEFB435A88F20_element_39"}
+2023-10-30 17:01:26,309 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_39/click HTTP/1.1" 200 14
+2023-10-30 17:01:26,310 : DEBUG :Finished Request
+2023-10-30 17:01:26,311 : INFO :Succesfully clicked on login button
+2023-10-30 17:01:32,326 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "xpath", "value": "//input[@id='ButtonOK']"}
+2023-10-30 17:01:32,340 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:32,340 : DEBUG :Finished Request
+2023-10-30 17:01:32,340 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_220/click {"id": "4BC2C2616D040EA7A6DAEFB435A88F20_element_220"}
+2023-10-30 17:01:32,378 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/4BC2C2616D040EA7A6DAEFB435A88F20_element_220/click HTTP/1.1" 200 14
+2023-10-30 17:01:32,380 : DEBUG :Finished Request
+2023-10-30 17:01:32,380 : INFO :Succesfully clicked on OK buttnon
+2023-10-30 17:01:34,383 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationPrompt_rblSelVerify_0\"]"}
+2023-10-30 17:01:34,541 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:34,542 : DEBUG :Finished Request
+2023-10-30 17:01:34,542 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_256/click {"id": "2C25FF4D86A521F343EDAE75C7934B1F_element_256"}
+2023-10-30 17:01:34,611 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_256/click HTTP/1.1" 200 14
+2023-10-30 17:01:34,612 : DEBUG :Finished Request
+2023-10-30 17:01:34,613 : INFO :Succesfully clicked on check box sec question 1
+2023-10-30 17:01:37,620 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:01:37,634 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:37,634 : DEBUG :Finished Request
+2023-10-30 17:01:37,634 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_266/click {"id": "2C25FF4D86A521F343EDAE75C7934B1F_element_266"}
+2023-10-30 17:01:37,686 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_266/click HTTP/1.1" 200 14
+2023-10-30 17:01:37,686 : DEBUG :Finished Request
+2023-10-30 17:01:37,687 : INFO :Succesfully clicked on check Next button
+2023-10-30 17:01:40,694 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnwser1\"]"}
+2023-10-30 17:01:40,712 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:40,712 : DEBUG :Finished Request
+2023-10-30 17:01:40,713 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_315/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "2C25FF4D86A521F343EDAE75C7934B1F_element_315"}
+2023-10-30 17:01:40,751 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_315/value HTTP/1.1" 200 14
+2023-10-30 17:01:40,751 : DEBUG :Finished Request
+2023-10-30 17:01:40,751 : INFO :Security Question 1 has entered : Applesauce1 answer
+2023-10-30 17:01:40,752 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnswer2\"]"}
+2023-10-30 17:01:40,766 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:40,767 : DEBUG :Finished Request
+2023-10-30 17:01:40,768 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_327/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "2C25FF4D86A521F343EDAE75C7934B1F_element_327"}
+2023-10-30 17:01:40,849 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_327/value HTTP/1.1" 200 14
+2023-10-30 17:01:40,850 : DEBUG :Finished Request
+2023-10-30 17:01:40,850 : INFO :Security Question 2 has entered : Applesauce1 answer
+2023-10-30 17:01:41,851 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:01:41,861 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:41,862 : DEBUG :Finished Request
+2023-10-30 17:01:41,862 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_337/click {"id": "2C25FF4D86A521F343EDAE75C7934B1F_element_337"}
+2023-10-30 17:01:41,924 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_337/click HTTP/1.1" 200 14
+2023-10-30 17:01:41,925 : DEBUG :Finished Request
+2023-10-30 17:01:41,925 : INFO :Succesfully clicked on check Next button
+2023-10-30 17:01:43,937 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationUnknownDevice_TrustedDeviceOptions_rblSelDevice_1\"]"}
+2023-10-30 17:01:43,949 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:43,949 : DEBUG :Finished Request
+2023-10-30 17:01:43,949 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_386/click {"id": "2C25FF4D86A521F343EDAE75C7934B1F_element_386"}
+2023-10-30 17:01:43,979 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_386/click HTTP/1.1" 200 14
+2023-10-30 17:01:43,980 : DEBUG :Finished Request
+2023-10-30 17:01:43,980 : INFO :Succesfully clicked on device information pop-up
+2023-10-30 17:01:44,990 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:01:44,998 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element HTTP/1.1" 200 96
+2023-10-30 17:01:44,999 : DEBUG :Finished Request
+2023-10-30 17:01:44,999 : DEBUG :POST http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_397/click {"id": "2C25FF4D86A521F343EDAE75C7934B1F_element_397"}
+2023-10-30 17:01:45,039 : DEBUG :http://127.0.0.1:51167 "POST /session/9fe61495d92e25dec06460d36343e955/element/2C25FF4D86A521F343EDAE75C7934B1F_element_397/click HTTP/1.1" 200 14
+2023-10-30 17:01:45,040 : DEBUG :Finished Request
+2023-10-30 17:01:45,041 : INFO :Succesfully clicked on device information Next button
+2023-10-30 17:01:53,048 : DEBUG :GET http://127.0.0.1:51167/session/9fe61495d92e25dec06460d36343e955/cookie {}
+2023-10-30 17:01:53,057 : DEBUG :http://127.0.0.1:51167 "GET /session/9fe61495d92e25dec06460d36343e955/cookie HTTP/1.1" 200 2037
+2023-10-30 17:01:53,058 : DEBUG :Finished Request
+2023-10-30 17:42:18,925 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-30 17:42:19,515 : DEBUG :POST http://127.0.0.1:53953/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-30 17:42:19,520 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:53953
+2023-10-30 17:42:21,653 : DEBUG :http://127.0.0.1:53953 "POST /session HTTP/1.1" 200 884
+2023-10-30 17:42:21,662 : DEBUG :Finished Request
+2023-10-30 17:42:21,665 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/url {"url": "https://docview.payableslockbox.com/MyInvoices.aspx"}
+2023-10-30 17:42:25,621 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/url HTTP/1.1" 200 14
+2023-10-30 17:42:25,623 : DEBUG :Finished Request
+2023-10-30 17:42:25,624 : INFO :Chrome driver has been started and loaded URL: https://docview.payableslockbox.com/MyInvoices.aspx
+2023-10-30 17:42:31,638 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/elements {"using": "css selector", "value": "#UserName"}
+2023-10-30 17:42:31,673 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/elements HTTP/1.1" 200 97
+2023-10-30 17:42:31,674 : DEBUG :Finished Request
+2023-10-30 17:42:31,674 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_26/clear {"id": "C25E9338E274875ACFDD254F8035D5D1_element_26"}
+2023-10-30 17:42:31,715 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_26/clear HTTP/1.1" 200 14
+2023-10-30 17:42:31,716 : DEBUG :Finished Request
+2023-10-30 17:42:31,716 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_26/value {"text": "bpbot.serviceaccount", "value": ["b", "p", "b", "o", "t", ".", "s", "e", "r", "v", "i", "c", "e", "a", "c", "c", "o", "u", "n", "t"], "id": "C25E9338E274875ACFDD254F8035D5D1_element_26"}
+2023-10-30 17:42:31,791 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_26/value HTTP/1.1" 200 14
+2023-10-30 17:42:31,793 : DEBUG :Finished Request
+2023-10-30 17:42:31,793 : INFO :User name has entered: Applesauce1
+2023-10-30 17:42:31,794 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/elements {"using": "css selector", "value": "#Password"}
+2023-10-30 17:42:31,824 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/elements HTTP/1.1" 200 97
+2023-10-30 17:42:31,825 : DEBUG :Finished Request
+2023-10-30 17:42:31,826 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_33/clear {"id": "C25E9338E274875ACFDD254F8035D5D1_element_33"}
+2023-10-30 17:42:31,884 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_33/clear HTTP/1.1" 200 14
+2023-10-30 17:42:31,885 : DEBUG :Finished Request
+2023-10-30 17:42:31,886 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_33/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "C25E9338E274875ACFDD254F8035D5D1_element_33"}
+2023-10-30 17:42:32,036 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_33/value HTTP/1.1" 200 14
+2023-10-30 17:42:32,038 : DEBUG :Finished Request
+2023-10-30 17:42:32,039 : INFO :Password  has entered: Applesauce1
+2023-10-30 17:42:32,040 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "xpath", "value": "//input[@id='LoginButton']"}
+2023-10-30 17:42:32,072 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 95
+2023-10-30 17:42:32,073 : DEBUG :Finished Request
+2023-10-30 17:42:32,074 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_40/click {"id": "C25E9338E274875ACFDD254F8035D5D1_element_40"}
+2023-10-30 17:42:32,196 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_40/click HTTP/1.1" 200 14
+2023-10-30 17:42:32,197 : DEBUG :Finished Request
+2023-10-30 17:42:32,198 : INFO :Succesfully clicked on login button
+2023-10-30 17:42:38,202 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "xpath", "value": "//input[@id='ButtonOK']"}
+2023-10-30 17:42:38,215 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:38,216 : DEBUG :Finished Request
+2023-10-30 17:42:38,216 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_217/click {"id": "C25E9338E274875ACFDD254F8035D5D1_element_217"}
+2023-10-30 17:42:38,274 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/C25E9338E274875ACFDD254F8035D5D1_element_217/click HTTP/1.1" 200 14
+2023-10-30 17:42:38,275 : DEBUG :Finished Request
+2023-10-30 17:42:38,276 : INFO :Succesfully clicked on OK buttnon
+2023-10-30 17:42:40,286 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationPrompt_rblSelVerify_0\"]"}
+2023-10-30 17:42:41,793 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:41,794 : DEBUG :Finished Request
+2023-10-30 17:42:41,795 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_253/click {"id": "091F4091C00EFE20818689F772C90EB0_element_253"}
+2023-10-30 17:42:41,896 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_253/click HTTP/1.1" 200 14
+2023-10-30 17:42:41,898 : DEBUG :Finished Request
+2023-10-30 17:42:41,899 : INFO :Succesfully clicked on check box sec question 1
+2023-10-30 17:42:44,910 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:42:44,938 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:44,939 : DEBUG :Finished Request
+2023-10-30 17:42:44,939 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_263/click {"id": "091F4091C00EFE20818689F772C90EB0_element_263"}
+2023-10-30 17:42:45,002 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_263/click HTTP/1.1" 200 14
+2023-10-30 17:42:45,003 : DEBUG :Finished Request
+2023-10-30 17:42:45,004 : INFO :Succesfully clicked on check Next button
+2023-10-30 17:42:48,013 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnwser1\"]"}
+2023-10-30 17:42:48,031 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:48,032 : DEBUG :Finished Request
+2023-10-30 17:42:48,032 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_312/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "091F4091C00EFE20818689F772C90EB0_element_312"}
+2023-10-30 17:42:48,078 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_312/value HTTP/1.1" 200 14
+2023-10-30 17:42:48,079 : DEBUG :Finished Request
+2023-10-30 17:42:48,079 : INFO :Security Question 1 has entered : Applesauce1 answer
+2023-10-30 17:42:48,080 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnswer2\"]"}
+2023-10-30 17:42:48,099 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:48,101 : DEBUG :Finished Request
+2023-10-30 17:42:48,101 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_324/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "091F4091C00EFE20818689F772C90EB0_element_324"}
+2023-10-30 17:42:48,197 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_324/value HTTP/1.1" 200 14
+2023-10-30 17:42:48,198 : DEBUG :Finished Request
+2023-10-30 17:42:48,199 : INFO :Security Question 2 has entered : Applesauce1 answer
+2023-10-30 17:42:49,207 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:42:49,223 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:49,224 : DEBUG :Finished Request
+2023-10-30 17:42:49,224 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_334/click {"id": "091F4091C00EFE20818689F772C90EB0_element_334"}
+2023-10-30 17:42:49,263 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_334/click HTTP/1.1" 200 14
+2023-10-30 17:42:49,263 : DEBUG :Finished Request
+2023-10-30 17:42:49,263 : INFO :Succesfully clicked on check Next button
+2023-10-30 17:42:51,269 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationUnknownDevice_TrustedDeviceOptions_rblSelDevice_1\"]"}
+2023-10-30 17:42:51,285 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:51,286 : DEBUG :Finished Request
+2023-10-30 17:42:51,286 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_383/click {"id": "091F4091C00EFE20818689F772C90EB0_element_383"}
+2023-10-30 17:42:51,363 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_383/click HTTP/1.1" 200 14
+2023-10-30 17:42:51,364 : DEBUG :Finished Request
+2023-10-30 17:42:51,365 : INFO :Succesfully clicked on device information pop-up
+2023-10-30 17:42:52,380 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:42:52,394 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element HTTP/1.1" 200 96
+2023-10-30 17:42:52,395 : DEBUG :Finished Request
+2023-10-30 17:42:52,395 : DEBUG :POST http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_394/click {"id": "091F4091C00EFE20818689F772C90EB0_element_394"}
+2023-10-30 17:42:52,472 : DEBUG :http://127.0.0.1:53953 "POST /session/8b9eba7a4565df03ffcb850fc6691c6a/element/091F4091C00EFE20818689F772C90EB0_element_394/click HTTP/1.1" 200 14
+2023-10-30 17:42:52,473 : DEBUG :Finished Request
+2023-10-30 17:42:52,473 : INFO :Succesfully clicked on device information Next button
+2023-10-30 17:43:00,488 : DEBUG :GET http://127.0.0.1:53953/session/8b9eba7a4565df03ffcb850fc6691c6a/cookie {}
+2023-10-30 17:43:01,743 : DEBUG :http://127.0.0.1:53953 "GET /session/8b9eba7a4565df03ffcb850fc6691c6a/cookie HTTP/1.1" 200 2037
+2023-10-30 17:43:01,746 : DEBUG :Finished Request
+2023-10-30 17:51:41,243 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-30 17:51:41,819 : DEBUG :POST http://127.0.0.1:54613/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--window-size=1920,1080", "--incognito"]}}}
+2023-10-30 17:51:41,821 : DEBUG :Starting new HTTP connection (1): 127.0.0.1:54613
+2023-10-30 17:51:43,814 : DEBUG :http://127.0.0.1:54613 "POST /session HTTP/1.1" 200 886
+2023-10-30 17:51:43,824 : DEBUG :Finished Request
+2023-10-30 17:51:43,827 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/url {"url": "https://docview.payableslockbox.com/MyInvoices.aspx"}
+2023-10-30 17:51:47,926 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/url HTTP/1.1" 200 14
+2023-10-30 17:51:47,927 : DEBUG :Finished Request
+2023-10-30 17:51:47,928 : INFO :Chrome driver has been started and loaded URL: https://docview.payableslockbox.com/MyInvoices.aspx
+2023-10-30 17:51:53,944 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/elements {"using": "css selector", "value": "#UserName"}
+2023-10-30 17:51:53,968 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/elements HTTP/1.1" 200 97
+2023-10-30 17:51:53,969 : DEBUG :Finished Request
+2023-10-30 17:51:53,969 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_25/clear {"id": "B946CE399D6F24537E52F26923DF801C_element_25"}
+2023-10-30 17:51:54,007 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_25/clear HTTP/1.1" 200 14
+2023-10-30 17:51:54,008 : DEBUG :Finished Request
+2023-10-30 17:51:54,008 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_25/value {"text": "bpbot.serviceaccount", "value": ["b", "p", "b", "o", "t", ".", "s", "e", "r", "v", "i", "c", "e", "a", "c", "c", "o", "u", "n", "t"], "id": "B946CE399D6F24537E52F26923DF801C_element_25"}
+2023-10-30 17:51:54,061 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_25/value HTTP/1.1" 200 14
+2023-10-30 17:51:54,062 : DEBUG :Finished Request
+2023-10-30 17:51:54,062 : INFO :User name has entered: Applesauce1
+2023-10-30 17:51:54,062 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/elements {"using": "css selector", "value": "#Password"}
+2023-10-30 17:51:54,080 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/elements HTTP/1.1" 200 97
+2023-10-30 17:51:54,081 : DEBUG :Finished Request
+2023-10-30 17:51:54,081 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_32/clear {"id": "B946CE399D6F24537E52F26923DF801C_element_32"}
+2023-10-30 17:51:54,125 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_32/clear HTTP/1.1" 200 14
+2023-10-30 17:51:54,126 : DEBUG :Finished Request
+2023-10-30 17:51:54,126 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_32/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "B946CE399D6F24537E52F26923DF801C_element_32"}
+2023-10-30 17:51:54,230 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_32/value HTTP/1.1" 200 14
+2023-10-30 17:51:54,231 : DEBUG :Finished Request
+2023-10-30 17:51:54,231 : INFO :Password  has entered: Applesauce1
+2023-10-30 17:51:54,232 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "xpath", "value": "//input[@id='LoginButton']"}
+2023-10-30 17:51:54,259 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 95
+2023-10-30 17:51:54,260 : DEBUG :Finished Request
+2023-10-30 17:51:54,261 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_39/click {"id": "B946CE399D6F24537E52F26923DF801C_element_39"}
+2023-10-30 17:51:54,353 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_39/click HTTP/1.1" 200 14
+2023-10-30 17:51:54,354 : DEBUG :Finished Request
+2023-10-30 17:51:54,355 : INFO :Succesfully clicked on login button
+2023-10-30 17:52:00,364 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "xpath", "value": "//input[@id='ButtonOK']"}
+2023-10-30 17:52:00,392 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:00,393 : DEBUG :Finished Request
+2023-10-30 17:52:00,393 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_217/click {"id": "B946CE399D6F24537E52F26923DF801C_element_217"}
+2023-10-30 17:52:00,430 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/B946CE399D6F24537E52F26923DF801C_element_217/click HTTP/1.1" 200 14
+2023-10-30 17:52:00,430 : DEBUG :Finished Request
+2023-10-30 17:52:00,431 : INFO :Succesfully clicked on OK buttnon
+2023-10-30 17:52:02,433 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationPrompt_rblSelVerify_0\"]"}
+2023-10-30 17:52:02,837 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:02,837 : DEBUG :Finished Request
+2023-10-30 17:52:02,839 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_253/click {"id": "181CA8EFB2A2544D4FF4613737C12597_element_253"}
+2023-10-30 17:52:02,908 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_253/click HTTP/1.1" 200 14
+2023-10-30 17:52:02,909 : DEBUG :Finished Request
+2023-10-30 17:52:02,910 : INFO :Succesfully clicked on check box sec question 1
+2023-10-30 17:52:05,912 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:52:05,939 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:05,939 : DEBUG :Finished Request
+2023-10-30 17:52:05,940 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_263/click {"id": "181CA8EFB2A2544D4FF4613737C12597_element_263"}
+2023-10-30 17:52:05,987 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_263/click HTTP/1.1" 200 14
+2023-10-30 17:52:05,989 : DEBUG :Finished Request
+2023-10-30 17:52:05,989 : INFO :Succesfully clicked on check Next button
+2023-10-30 17:52:08,997 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnwser1\"]"}
+2023-10-30 17:52:09,015 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:09,016 : DEBUG :Finished Request
+2023-10-30 17:52:09,016 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_312/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "181CA8EFB2A2544D4FF4613737C12597_element_312"}
+2023-10-30 17:52:09,048 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_312/value HTTP/1.1" 200 14
+2023-10-30 17:52:09,049 : DEBUG :Finished Request
+2023-10-30 17:52:09,049 : INFO :Security Question 1 has entered : Applesauce1 answer
+2023-10-30 17:52:09,049 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationQandA_txtAnswer2\"]"}
+2023-10-30 17:52:09,061 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:09,062 : DEBUG :Finished Request
+2023-10-30 17:52:09,062 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_324/value {"text": "Applesauce1", "value": ["A", "p", "p", "l", "e", "s", "a", "u", "c", "e", "1"], "id": "181CA8EFB2A2544D4FF4613737C12597_element_324"}
+2023-10-30 17:52:09,137 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_324/value HTTP/1.1" 200 14
+2023-10-30 17:52:09,138 : DEBUG :Finished Request
+2023-10-30 17:52:09,139 : INFO :Security Question 2 has entered : Applesauce1 answer
+2023-10-30 17:52:10,147 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:52:10,166 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:10,167 : DEBUG :Finished Request
+2023-10-30 17:52:10,167 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_334/click {"id": "181CA8EFB2A2544D4FF4613737C12597_element_334"}
+2023-10-30 17:52:10,201 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_334/click HTTP/1.1" 200 14
+2023-10-30 17:52:10,201 : DEBUG :Finished Request
+2023-10-30 17:52:10,201 : INFO :Succesfully clicked on check Next button
+2023-10-30 17:52:12,210 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "css selector", "value": "[id=\"IdentityVerification_IVerificationUnknownDevice_TrustedDeviceOptions_rblSelDevice_1\"]"}
+2023-10-30 17:52:12,231 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:12,231 : DEBUG :Finished Request
+2023-10-30 17:52:12,232 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_383/click {"id": "181CA8EFB2A2544D4FF4613737C12597_element_383"}
+2023-10-30 17:52:12,262 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_383/click HTTP/1.1" 200 14
+2023-10-30 17:52:12,263 : DEBUG :Finished Request
+2023-10-30 17:52:12,263 : INFO :Succesfully clicked on device information pop-up
+2023-10-30 17:52:13,274 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element {"using": "css selector", "value": "[id=\"IdentityVerification_ButtonNext\"]"}
+2023-10-30 17:52:13,291 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element HTTP/1.1" 200 96
+2023-10-30 17:52:13,292 : DEBUG :Finished Request
+2023-10-30 17:52:13,293 : DEBUG :POST http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_394/click {"id": "181CA8EFB2A2544D4FF4613737C12597_element_394"}
+2023-10-30 17:52:13,330 : DEBUG :http://127.0.0.1:54613 "POST /session/e3439de45659ea0310f41c5bc8e352de/element/181CA8EFB2A2544D4FF4613737C12597_element_394/click HTTP/1.1" 200 14
+2023-10-30 17:52:13,331 : DEBUG :Finished Request
+2023-10-30 17:52:13,331 : INFO :Succesfully clicked on device information Next button
+2023-10-30 17:52:21,334 : DEBUG :GET http://127.0.0.1:54613/session/e3439de45659ea0310f41c5bc8e352de/cookie {}
+2023-10-30 17:52:21,948 : DEBUG :http://127.0.0.1:54613 "GET /session/e3439de45659ea0310f41c5bc8e352de/cookie HTTP/1.1" 200 2037
+2023-10-30 17:52:21,949 : DEBUG :Finished Request
+2023-10-30 17:52:21,949 : INFO :Cookie dictonory has been fetched: : {'dtPC': '7$68534962_919h-vFCMHPMOPABMATHRJARKKRQRHBRMCNCVF-0e0', 'rxvt': '1698670340981|1698668505953', '.ASPXAUTH': '31BA1544712B6A84C089DAF49908F4653AF40026FCFACBB8C491CE4079949E9E99E9BE799E87028F921D4CCD006A00A901266CCF6D80A781CE0A55C00396766EDE45222E5B4038CF772A4B29A16D150810C1D120677C4235C667F63F8D2F53A836AC7BC05905325B4554F8A700CEF909FC691E5189F5578E1851F0EA6A1AC3E622F4D30182B22D1DC3C2FDE0C245836222CE5B4BD84F04C77FEF46EF7753FE10', 'KnownDeviceToken_38d4c6fcfe7bfc61fa405ed1338f7e9b': 'bc2eba1e-7950-43e8-b26b-da12f56e0725', 'dtSa': '-', 'rxVisitor': '1698668505949Q54FUBMSUI5HGIAJVJ8MCK0367R4B182', 'dtCookie': 'v_4_srv_7_sn_4D00A0ECDDA2F28B194C11C3B513BF0B_perc_100000_ol_0_mul_1_app-3A093b94edca357d6c_1', 'ApplicationGatewayAffinity': '7c4bebe4be4f05a04120cf3c2630d89d', 'ASP.NET_SessionId': 'fsutwo2aon1kgvgprpc4j1hs', 'ApplicationGatewayAffinityCORS': '7c4bebe4be4f05a04120cf3c2630d89d'}
+2023-10-30 17:52:21,951 : INFO :Strong room http cookie has fetched Cookie: : dtPC=7$68534962_919h-vFCMHPMOPABMATHRJARKKRQRHBRMCNCVF-0e0; rxvt=1698670340981|1698668505953; .ASPXAUTH=31BA1544712B6A84C089DAF49908F4653AF40026FCFACBB8C491CE4079949E9E99E9BE799E87028F921D4CCD006A00A901266CCF6D80A781CE0A55C00396766EDE45222E5B4038CF772A4B29A16D150810C1D120677C4235C667F63F8D2F53A836AC7BC05905325B4554F8A700CEF909FC691E5189F5578E1851F0EA6A1AC3E622F4D30182B22D1DC3C2FDE0C245836222CE5B4BD84F04C77FEF46EF7753FE10; KnownDeviceToken_38d4c6fcfe7bfc61fa405ed1338f7e9b=bc2eba1e-7950-43e8-b26b-da12f56e0725; dtSa=-; rxVisitor=1698668505949Q54FUBMSUI5HGIAJVJ8MCK0367R4B182; dtCookie=v_4_srv_7_sn_4D00A0ECDDA2F28B194C11C3B513BF0B_perc_100000_ol_0_mul_1_app-3A093b94edca357d6c_1; ApplicationGatewayAffinity=7c4bebe4be4f05a04120cf3c2630d89d; ASP.NET_SessionId=fsutwo2aon1kgvgprpc4j1hs; ApplicationGatewayAffinityCORS=7c4bebe4be4f05a04120cf3c2630d89d
+2023-10-30 17:52:25,012 : INFO :Cookies written to C:\Python\Genric Invoice Downloader\Strong Room HTTP Cookie\Strong Room HTTP Cookie.txt

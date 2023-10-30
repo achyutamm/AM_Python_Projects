@@ -1,0 +1,7 @@
+2023-10-25 14:29:16,465 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-25 14:29:21,459 : INFO :Got https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/4229783b-91f4-4452-b754-b60bd7d89a5d from Blue Prism
+2023-10-25 14:29:21,460 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/4229783b-91f4-4452-b754-b60bd7d89a5d
+2023-10-25 14:29:21,466 : DEBUG :Starting new HTTPS connection (1): app.avidxchange.net:443
+2023-10-25 14:29:22,735 : DEBUG :https://app.avidxchange.net:443 "GET /AvidSuite/File/InvoiceAttachment/4229783b-91f4-4452-b754-b60bd7d89a5d HTTP/1.1" 200 357569
+2023-10-25 14:29:25,077 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-25 14:29:25,090 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\ca158480-3021-40a5-9591-1ab0ad1cc6e3.pdf

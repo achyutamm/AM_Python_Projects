@@ -1,0 +1,223 @@
+2023-10-27 00:13:22,994 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 00:13:41,708 : INFO :Got https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 from Blue Prism
+2023-10-27 00:14:10,856 : INFO :No valid token found in the URL for AvidSuite
+2023-10-27 00:17:15,629 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 00:17:19,738 : INFO :Got https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 from Blue Prism
+2023-10-27 00:17:31,628 : INFO :Downloading invoice from AvidSuite - URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/
+2023-10-27 00:18:56,604 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 00:19:00,520 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=skZ2yFl/J5xJZ1VPWINCIg== from Blue Prism
+2023-10-27 00:19:11,725 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=skZ2yFl/J5xJZ1VPWINCIg==
+2023-10-27 00:19:42,573 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 00:19:46,366 : INFO :Got https://docview.payableslockbox.com/docview/invoiceviewer.aspx?i=17354938&c=CARADAY&s=883f1d27-84b7-7f92-57d0-253c9f95c006 from Blue Prism
+2023-10-27 00:19:49,043 : INFO :Downloading invoice from StrongRoom - URL: https://docview.payableslockbox.com/docview/invoiceviewer.aspx?i=17354938&c=CARADAY&s=883f1d27-84b7-7f92-57d0-253c9f95c006
+2023-10-27 14:31:42,566 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 14:31:46,819 : INFO :Got https://0943ca.ascend2.banktel.com/web/AvidPay/InvoiceAttachment?invoiceId=68af3096-75c4-40a9-a203-60e276aac031 from Blue Prism
+2023-10-27 14:31:53,614 : INFO :Downloading invoice from BankTel - URL: https://0943ca.ascend2.banktel.com/web/AvidPay/InvoiceAttachment?invoiceId=68af3096-75c4-40a9-a203-60e276aac031
+2023-10-27 14:32:26,261 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://0943ca.ascend2.banktel.com/web/AvidPay/InvoiceAttachment?invoiceId=68af3096-75c4-40a9-a203-60e276aac031
+2023-10-27 14:32:26,273 : DEBUG :Starting new HTTPS connection (1): 0943ca.ascend2.banktel.com:443
+2023-10-27 14:32:28,540 : DEBUG :https://0943ca.ascend2.banktel.com:443 "GET /web/AvidPay/InvoiceAttachment?invoiceId=68af3096-75c4-40a9-a203-60e276aac031 HTTP/1.1" 200 201362
+2023-10-27 14:32:29,516 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 14:32:32,651 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\8fa0b701-e05f-495b-89a6-0cc6fb219015.pdf
+2023-10-27 15:14:51,997 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:14:53,791 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDdDmwYlGFNnvqalE6Mr3I6Y= from Blue Prism
+2023-10-27 15:15:05,360 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDdDmwYlGFNnvqalE6Mr3I6Y=
+2023-10-27 15:16:17,907 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:16:22,231 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDdDmwYlGFNnvqalE6Mr3I6Y= from Blue Prism
+2023-10-27 15:16:54,404 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDdDmwYlGFNnvqalE6Mr3I6Y=
+2023-10-27 15:19:41,233 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:19:47,092 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk= from Blue Prism
+2023-10-27 15:19:51,268 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk=
+2023-10-27 15:21:49,890 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:21:51,560 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk= from Blue Prism
+2023-10-27 15:21:54,985 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk=
+2023-10-27 15:23:09,443 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:23:10,967 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk= from Blue Prism
+2023-10-27 15:23:14,139 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk=
+2023-10-27 15:24:16,865 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:24:18,137 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk= from Blue Prism
+2023-10-27 15:24:26,869 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDWCeNKgeMPV23YgAh+kRyHk=
+2023-10-27 15:25:49,568 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:25:51,235 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA= from Blue Prism
+2023-10-27 15:25:56,007 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA=
+2023-10-27 15:29:50,075 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:30:02,309 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA= from Blue Prism
+2023-10-27 15:30:10,814 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA=
+2023-10-27 15:30:56,831 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:30:58,116 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA= from Blue Prism
+2023-10-27 15:31:12,936 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA=
+2023-10-27 15:35:47,014 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:35:53,425 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA= from Blue Prism
+2023-10-27 15:35:53,428 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=vI4Fofx2ygw3iG7LNXK+yROG+36ZGPHnIYdPvGg2SZA=
+2023-10-27 15:43:32,035 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:43:43,503 : INFO :Got https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 from Blue Prism
+2023-10-27 15:43:43,505 : INFO :Downloading invoice from AvidSuite - URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:43:56,113 : INFO :Extracted invoice ID: b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:44:03,706 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:44:04,182 : DEBUG :Starting new HTTPS connection (1): app.avidxchange.net:443
+2023-10-27 15:44:05,582 : DEBUG :https://app.avidxchange.net:443 "GET /AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 HTTP/1.1" 200 299823
+2023-10-27 15:44:08,182 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 15:44:11,073 : ERROR :InvoiceDownloaderFunc: Error retrieving invoice from URL
+Traceback (most recent call last):
+  File "C:\Python\Genric Invoice Downloader\invoice_downloader.py", line 44, in invoiceDownload
+    invoice_id = extract_invoice_id(url)
+TypeError: extract_invoice_id() missing 1 required positional argument: 'portal_name'
+2023-10-27 15:44:17,360 : DEBUG :Encoding detection: Unable to determine any suitable charset.
+2023-10-27 15:44:17,411 : DEBUG :Encoding detection: Unable to determine any suitable charset.
+2023-10-27 15:45:15,276 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:45:18,576 : INFO :Got https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 from Blue Prism
+2023-10-27 15:45:18,578 : INFO :Downloading invoice from AvidSuite - URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:45:27,982 : INFO :Extracted invoice ID: b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:45:31,056 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:45:32,743 : DEBUG :Starting new HTTPS connection (1): app.avidxchange.net:443
+2023-10-27 15:45:33,918 : DEBUG :https://app.avidxchange.net:443 "GET /AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 HTTP/1.1" 200 299823
+2023-10-27 15:45:38,643 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 15:47:42,314 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:47:47,663 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=skZ2yFl/J5zyRvFhd7p9zQ== from Blue Prism
+2023-10-27 15:47:47,665 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=skZ2yFl/J5zyRvFhd7p9zQ==
+2023-10-27 15:49:24,296 : INFO :Extracted invoice ID: skZ2yFl/J5zyRvFhd7p9zQ==
+2023-10-27 15:49:27,803 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=skZ2yFl/J5zyRvFhd7p9zQ==
+2023-10-27 15:49:28,792 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 15:49:34,257 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=skZ2yFl/J5zyRvFhd7p9zQ== HTTP/1.1" 200 2745
+2023-10-27 15:49:35,060 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 15:49:55,366 : DEBUG :Encoding detection: Unable to determine any suitable charset.
+2023-10-27 15:49:55,368 : DEBUG :Encoding detection: Unable to determine any suitable charset.
+2023-10-27 15:55:18,322 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:55:28,871 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDRbyQxAV8p+1lF0qmtGyzeI= from Blue Prism
+2023-10-27 15:55:28,873 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDRbyQxAV8p+1lF0qmtGyzeI=
+2023-10-27 15:55:33,859 : INFO :Extracted invoice ID: ENHO4 EScovEE1a8n2EjDRbyQxAV8p 1lF0qmtGyzeI=
+2023-10-27 15:55:36,586 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDRbyQxAV8p+1lF0qmtGyzeI=
+2023-10-27 15:55:37,137 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 15:55:40,651 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=ENHO4+EScovEE1a8n2EjDRbyQxAV8p+1lF0qmtGyzeI= HTTP/1.1" 200 2445
+2023-10-27 15:55:41,852 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 15:56:01,156 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027155542_ENHO4 EScovEE1a8n2EjDRbyQxAV8p 1lF0qmtGyzeI=.pdf
+2023-10-27 15:58:25,590 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 15:58:28,049 : INFO :Got https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 from Blue Prism
+2023-10-27 15:58:28,050 : INFO :Downloading invoice from AvidSuite - URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:58:36,835 : INFO :Extracted invoice ID: b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:58:41,431 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6
+2023-10-27 15:58:45,293 : DEBUG :Starting new HTTPS connection (1): app.avidxchange.net:443
+2023-10-27 15:58:46,552 : DEBUG :https://app.avidxchange.net:443 "GET /AvidSuite/File/InvoiceAttachment/b8acba78-b2ae-4655-85b5-4e8ea0ba41f6 HTTP/1.1" 200 299823
+2023-10-27 15:58:49,310 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:01:40,737 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\app.avidxchange.net_20231027155853_b8acba78-b2ae-4655-85b5-4e8ea0ba41f6.pdf
+2023-10-27 16:03:16,284 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:03:18,263 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd from Blue Prism
+2023-10-27 16:03:18,265 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:03:18,265 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd
+2023-10-27 16:03:18,265 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:03:18,276 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:03:21,603 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd HTTP/1.1" 200 2445
+2023-10-27 16:03:21,608 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:03:21,612 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027160321_iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd.pdf
+2023-10-27 16:03:58,478 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:04:12,133 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd from Blue Prism
+2023-10-27 16:04:12,133 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:04:12,133 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd
+2023-10-27 16:04:12,133 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:04:12,140 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:04:14,043 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd HTTP/1.1" 200 2445
+2023-10-27 16:04:14,048 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:04:14,058 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027160414_iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd.pdf
+2023-10-27 16:04:39,345 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:04:49,443 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:04:52,521 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd from Blue Prism
+2023-10-27 16:04:52,522 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:04:52,523 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd
+2023-10-27 16:05:05,339 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:05:05,921 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:05:07,703 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd HTTP/1.1" 200 2445
+2023-10-27 16:05:08,394 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:05:28,684 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027160512_iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd.pdf
+2023-10-27 16:11:17,083 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:11:19,251 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd from Blue Prism
+2023-10-27 16:11:19,252 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:11:19,252 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd
+2023-10-27 16:11:30,216 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd
+2023-10-27 16:11:30,838 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:11:33,203 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz+lr1fADJ7Bd HTTP/1.1" 200 2445
+2023-10-27 16:11:34,194 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:11:43,185 : ERROR :InvoiceDownloaderFunc: Error in downloading or saving the invoice
+Traceback (most recent call last):
+  File "C:\Python\Genric Invoice Downloader\invoice_downloader.py", line 85, in invoiceDownload
+    with open(save_path, 'wb') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Python\\Genric Invoice Downloader\\Output\\accounting.onesite.realpage.com_20231027161134_iI5/cXst6pSzuWr0nZ/Nz lr1fADJ7Bd.pdf'
+2023-10-27 16:12:25,497 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:12:27,892 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:12:27,893 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:12:27,893 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:12:45,523 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:12:46,244 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:12:48,149 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv HTTP/1.1" 200 2441
+2023-10-27 16:12:49,459 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:16:45,902 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:16:53,692 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:16:53,695 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:16:53,696 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:17:04,698 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:17:05,318 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:17:09,194 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv HTTP/1.1" 200 2441
+2023-10-27 16:17:10,013 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:17:39,217 : ERROR :InvoiceDownloaderFunc: Error in downloading or saving the invoice
+Traceback (most recent call last):
+  File "C:\Python\Genric Invoice Downloader\invoice_downloader.py", line 84, in invoiceDownload
+    with open(save_path, 'wb') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Python\\Genric Invoice Downloader\\Output\\accounting.onesite.realpage.com_20231027161710_iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv.pdf'
+2023-10-27 16:19:51,983 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:19:57,058 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:19:57,060 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:19:57,060 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:20:07,891 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:20:08,621 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:20:10,420 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv HTTP/1.1" 200 2441
+2023-10-27 16:20:11,057 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:20:23,800 : INFO :Save path: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027162011_iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv.pdf
+2023-10-27 16:20:46,342 : ERROR :InvoiceDownloaderFunc: Error in downloading or saving the invoice
+Traceback (most recent call last):
+  File "C:\Python\Genric Invoice Downloader\invoice_downloader.py", line 87, in invoiceDownload
+    with open(save_path, 'wb') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Python\\Genric Invoice Downloader\\Output\\accounting.onesite.realpage.com_20231027162011_iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv.pdf'
+2023-10-27 16:22:24,341 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:22:27,362 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv' from Blue Prism
+2023-10-27 16:22:27,363 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv'
+2023-10-27 16:22:27,364 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv'
+2023-10-27 16:22:48,066 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv'
+2023-10-27 16:22:48,529 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:22:51,248 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv' HTTP/1.1" 200 2441
+2023-10-27 16:23:00,389 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:23:25,092 : INFO :Save path: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027162300_iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv'.pdf
+2023-10-27 16:25:42,720 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:25:43,884 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:25:43,885 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:25:43,885 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:25:50,485 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:25:50,969 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:25:52,867 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv HTTP/1.1" 200 2441
+2023-10-27 16:25:53,837 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:26:04,036 : INFO :Save path: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027162554_iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv.pdf
+2023-10-27 16:28:19,258 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:28:21,476 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:28:21,477 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:28:21,478 : INFO :Extracted invoice ID: iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:28:26,716 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:28:27,208 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:28:29,660 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv HTTP/1.1" 200 2441
+2023-10-27 16:28:30,792 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:30:52,918 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:30:55,193 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:30:55,194 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:30:55,195 : INFO :Extracted invoice ID: avidinvoice.phtml
+2023-10-27 16:31:23,402 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:31:26,154 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:31:26,156 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:33:24,183 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:33:37,970 : INFO :Got 	https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:33:37,970 : INFO :Downloading invoice from RealPage - URL: 	https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:35:03,341 : INFO :** Genric Invoice Downloader process started in WBZ-IN-C626G63** 
+2023-10-27 16:35:06,286 : INFO :Got https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv from Blue Prism
+2023-10-27 16:35:06,287 : INFO :Downloading invoice from RealPage - URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:35:28,992 : INFO :Extracted invoice ID: eE0b4RXv
+2023-10-27 16:35:31,109 : INFO :InvoiceDownloaderFunc: Invoice to download from URL: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv
+2023-10-27 16:35:31,601 : DEBUG :Starting new HTTPS connection (1): accounting.onesite.realpage.com:443
+2023-10-27 16:35:33,808 : DEBUG :https://accounting.onesite.realpage.com:443 "GET /ia/acct/avidinvoice.phtml?.token=iI5/cXst6pSzuWr0nZ/Nz9R/eE0b4RXv HTTP/1.1" 200 2441
+2023-10-27 16:35:34,393 : INFO :InvoiceDownloaderFunc: Successfully downloaded invoice from URL
+2023-10-27 16:35:42,556 : INFO :Save path: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027163534_eE0b4RXv.pdf
+2023-10-27 16:35:47,248 : INFO :Invoice saved to: C:\Python\Genric Invoice Downloader\Output\accounting.onesite.realpage.com_20231027163534_eE0b4RXv.pdf

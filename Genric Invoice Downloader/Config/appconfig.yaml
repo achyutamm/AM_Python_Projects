@@ -1,0 +1,79 @@
+production:
+  database:
+    host: production-host
+    port: 5432
+    username: prod-user
+    password: prod-password
+
+  file_path:
+    invoice_output_path: C:\Python\Genric Invoice Downloader\Output\
+    log_file_path: C:\Python\Genric Invoice Downloader\Log\
+    strong_room_cookie_log_file_path:  C:\Python\Genric Invoice Downloader\Log\Strong Room HTTP Cookie\
+    stron_room_cookie_file_path: C:\Python\Genric Invoice Downloader\Strong Room HTTP Cookie\Strong Room HTTP Cookie.txt
+    chrome_driver_path: C:\Python\Genric Invoice Downloader\Chrome Driver\chromedriver.exe
+
+
+  strong_room_portal:
+    strrong_room_user_name: bpbot.serviceaccount
+    strrong_room_pwd: Applesauce1
+    strrong_room_url: https://docview.payableslockbox.com/MyInvoices.aspx
+
+
+  invoice_config:
+    - domain: app.avidxchange.net
+      portal_name: AvidSuite
+      download_url_pattern: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/
+
+    - domain: docview.payableslockbox.com
+      portal_name: StrongRoom
+      download_url_pattern: https://docview.payableslockbox.com/docview/invoiceviewer.aspx
+
+    - domain: accounting.onesite.realpage.com
+      portal_name: RealPage
+      download_url_pattern: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml
+
+    - domain: 0943ca.ascend2.banktel.com
+      portal_name: BankTel
+      download_url_pattern: https://0943ca.ascend2.banktel.com/web/AvidPay/InvoiceAttachment?invoiceId=
+    
+    
+
+Development:
+  database:
+    host: production-host
+    port: 5432
+    username: prod-user
+    password: prod-password
+
+  file_path:
+    invoice_output_path: C:\Python\Genric Invoice Downloader\Output\
+    log_file_path: C:\Python\Genric Invoice Downloader\Log\
+    strong_room_cookie_log_file_path:  C:\Python\Genric Invoice Downloader\Log\Strong Room HTTP Cookie\
+    stron_room_cookie_file_path: C:\Python\Genric Invoice Downloader\Strong Room HTTP Cookie\Strong Room HTTP Cookie.txt
+    chrome_driver_path: C:\Python\Genric Invoice Downloader\Chrome Driver\chromedriver.exe
+
+
+  strong_room_portal:
+    strrong_room_user_name: bpbot.serviceaccount
+    strrong_room_pwd: Applesauce1
+    strrong_room_url: https://docview.payableslockbox.com/MyInvoices.aspx
+
+
+  invoice_config:
+    - domain: app.avidxchange.net
+      portal_name: AvidSuite
+      download_url_pattern: https://app.avidxchange.net/AvidSuite/File/InvoiceAttachment/
+
+    - domain: docview.payableslockbox.com
+      portal_name: StrongRoom
+      download_url_pattern: https://docview.payableslockbox.com/docview/invoiceviewer.aspx
+
+    - domain: accounting.onesite.realpage.com
+      portal_name: RealPage
+      download_url_pattern: https://accounting.onesite.realpage.com/ia/acct/avidinvoice.phtml
+
+    - domain: 0943ca.ascend2.banktel.com
+      portal_name: BankTel
+      download_url_pattern: https://0943ca.ascend2.banktel.com/web/AvidPay/InvoiceAttachment?invoiceId=
+
+  
