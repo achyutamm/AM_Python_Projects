@@ -1,2 +1,0 @@
-2023-12-14 14:46:43 INFO WBZ Employee Adding Data on MongoDB Process has started on WBZ-IN-C626G63.
-2023-12-14 14:49:31 INFO WBZ Employee Adding Data on MongoDB Process has started on WBZ-IN-C626G63.
