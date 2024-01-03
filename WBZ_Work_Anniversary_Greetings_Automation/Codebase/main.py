@@ -1,11 +1,14 @@
 import os
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 import socket
 import time
 from pymongo import MongoClient
 from gridfs import GridFS
 import config_reader
+from bson import ObjectId
+from gridfs.errors import NoFile
+import base64
 
 # Constants
 PRODUCTION = "production"
@@ -59,33 +62,40 @@ def connect_to_mongodb(mongoclient, db_name):
 
 
 def process_work_anniversaries(db, collection_name, downloaded_images, log_folder_path):
-    today_date = datetime.now().strftime("%m/%d")
-    query = {"work_anniversary": today_date}
-    total_documents = db[collection_name].count_documents(query)
+    today_date = datetime.utcnow().strftime("%Y-%m-%d")
+    logging.info(f"Today's Date: {today_date}")
+    query = {"Work_Anniversary": today_date}
+    logging.info(f"Generated Query: {query}")
+
+    collection = db[collection_name]
+    documents = collection.find(query)
+    total_documents = collection.count_documents(query)
     logging.info(f"Found {total_documents} documents to process for today's work anniversaries.")
 
     start_download_time = time.time()
-    fs = GridFS(db, collection="images")
 
-    for document in db[collection_name].find(query):
-        employee_name = document["employee_name"]
-        work_anniversary_date = document["work_anniversary"]
+    for document in documents:
+        document_id = document["_id"]
+        logging.info(f"Processing document for ID: {document_id}")
 
-        logging.info(f"Processing document for employee: {employee_name} ({work_anniversary_date})")
+        image_data_base64 = document.get("Image_Data", None)
+        if image_data_base64:
+            try:
+                # Decode Base64 string into bytes
+                image_bytes = base64.b64decode(image_data_base64)
 
-        image_id = document.get("image_id")
-        image_file = fs.get(image_id)
+                employee_name = document["Employee_Name"]
+                local_image_path = os.path.join(downloaded_images, f"{employee_name}.jpg")
 
-        local_image_path = os.path.join(downloaded_images, f"{employee_name}.jpg")
+                with open(local_image_path, "wb") as image_file:
+                    image_file.write(image_bytes)
 
-        with open(local_image_path, "wb") as f:
-            f.write(image_file.read())
-
-        document["local_image_path"] = local_image_path
-        current_download_time = time.time()
-        logging.info(f"Image download time for {employee_name}: {(current_download_time - start_download_time):.2f} seconds.")
-
-        print(document)
+                current_download_time = time.time()
+                logging.info(f"Image downloaded for {employee_name} in {(current_download_time - start_download_time):.2f} seconds.")
+            except Exception as e:
+                logging.error(f"Error downloading image for {employee_name}: {e}")
+        else:
+            logging.warning(f"Image data is missing for document ID: {document_id}")
 
 
 def main():

@@ -113,3 +113,38 @@
 2023-12-14 16:14:15 INFO Added image for Employee_Name. Image file: Mohammad Dastagir.jpg
 2023-12-14 16:14:15 INFO Processed 13 records with images in total for Employee_Name.
 2023-12-14 16:14:15 INFO Moved Excel file to the backup folder: C:\Python\WBZ_Work_Anniversary_Greetings_Automation\Data\Data Add Loader Backup\2023-12-14\backup_161415_emp_name.xlsx
+2023-12-14 21:26:03 INFO WBZ Employee Adding Data on MongoDB Process has started on WBZ-IN-C626G63.
+2023-12-14 21:26:03 INFO Observer is starting to watch for new events.
+2023-12-14 21:27:33 INFO WBZ Employee Adding Data on MongoDB Process has started on WBZ-IN-C626G63.
+2023-12-14 21:27:37 INFO Observer is starting to watch for new events.
+2023-12-14 21:33:24 INFO WBZ Employee Adding Data on MongoDB Process has started on WBZ-IN-C626G63.
+2023-12-14 21:33:24 INFO Observer is starting to watch for new events.
+2023-12-14 21:33:48 INFO New Excel file detected: C:\Python\WBZ_Work_Anniversary_Greetings_Automation\Data\Data Add Loader\emp_name.xlsx
+2023-12-14 21:33:49 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:49 INFO Added image for Employee_Name. Image file: Ayisha Hajisa.jpg
+2023-12-14 21:33:49 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:49 INFO Added image for Employee_Name. Image file: Gaurav Tripathi.jpg
+2023-12-14 21:33:49 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:49 INFO Added image for Employee_Name. Image file: Shivani Thakral.jpg
+2023-12-14 21:33:49 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:49 INFO Added image for Employee_Name. Image file: Aditi Semwal.jpg
+2023-12-14 21:33:49 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:49 INFO Added image for Employee_Name. Image file: Jilani Shaik.jpg
+2023-12-14 21:33:49 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:49 INFO Added image for Employee_Name. Image file: Komal Dole.jpg
+2023-12-14 21:33:49 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:49 INFO Added image for Employee_Name. Image file: Manobala C.png
+2023-12-14 21:33:50 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:50 INFO Added image for Employee_Name. Image file: Pavankumar Mandula.jpg
+2023-12-14 21:33:50 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:50 INFO Added image for Employee_Name. Image file: Mohammed Yoonus.jpg
+2023-12-14 21:33:50 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:50 INFO Added image for Employee_Name. Image file: Lakshmana Konga.jpg
+2023-12-14 21:33:50 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:50 INFO Added image for Employee_Name. Image file: Saranya S.jpg
+2023-12-14 21:33:50 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:50 INFO Added image for Employee_Name. Image file: Jothin Georgi.jpg
+2023-12-14 21:33:50 INFO Inserted record with image into MongoDB for Employee_Name.
+2023-12-14 21:33:50 INFO Added image for Employee_Name. Image file: Mohammad Dastagir.jpg
+2023-12-14 21:33:50 INFO Processed 13 records with images in total for Employee_Name.
+2023-12-14 21:33:50 INFO Moved Excel file to the backup folder: C:\Python\WBZ_Work_Anniversary_Greetings_Automation\Data\Data Add Loader Backup\2023-12-14\backup_213350_emp_name.xlsx

@@ -1,0 +1,66 @@
+2023-12-18 16:18:13 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:18:18 INFO Connected to MongoDB successfully!
+2023-12-18 16:18:19 INFO Found 0 documents to process for today's work anniversaries.
+2023-12-18 16:18:19 INFO Total execution time: 6.49 seconds
+2023-12-18 16:18:19 INFO WBZ Work_Anniversary Greetings Automation Process has been completed on WBZ-IN-C626G63.
+2023-12-18 16:34:17 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:34:18 INFO Connected to MongoDB successfully!
+2023-12-18 16:34:18 INFO Found 0 documents to process for today's work anniversaries.
+2023-12-18 16:34:19 INFO Total execution time: 1.03 seconds
+2023-12-18 16:34:19 INFO WBZ Work_Anniversary Greetings Automation Process has been completed on WBZ-IN-C626G63.
+2023-12-18 16:37:31 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:37:32 INFO Connected to MongoDB successfully!
+2023-12-18 16:37:32 INFO Today's Date: 2023-12-18T11:07:32.225574+00:00
+2023-12-18 16:37:32 INFO Generated Query: {'Work_Anniversary': {'$gte': '2023-12-18T11:07:32.225574+00:00'}}
+2023-12-18 16:37:32 INFO Found 0 documents to process for today's work anniversaries.
+2023-12-18 16:37:32 INFO Total execution time: 1.03 seconds
+2023-12-18 16:37:32 INFO WBZ Work_Anniversary Greetings Automation Process has been completed on WBZ-IN-C626G63.
+2023-12-18 16:45:19 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:45:20 INFO Connected to MongoDB successfully!
+2023-12-18 16:45:20 INFO Today's Date: 2023-12-18 11:15:20.041254+00:00
+2023-12-18 16:45:20 INFO Generated Query: {'Work_Anniversary': {'$gte': datetime.datetime(2023, 12, 18, 11, 15, 20, 41254, tzinfo=datetime.timezone.utc)}}
+2023-12-18 16:45:20 INFO Found 11 documents to process for today's work anniversaries.
+2023-12-18 16:45:21 INFO Processing document for employee: Shivani Thakral (2023-12-20 00:00:00)
+2023-12-18 16:45:34 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:45:34 INFO Connected to MongoDB successfully!
+2023-12-18 16:45:34 INFO Today's Date: 2023-12-18 11:15:34.572241+00:00
+2023-12-18 16:45:34 INFO Generated Query: {'Work_Anniversary': {'$gte': datetime.datetime(2023, 12, 18, 11, 15, 34, 572241, tzinfo=datetime.timezone.utc)}}
+2023-12-18 16:45:34 INFO Found 11 documents to process for today's work anniversaries.
+2023-12-18 16:45:35 INFO Processing document for employee: Shivani Thakral (2023-12-20 00:00:00)
+2023-12-18 16:46:17 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:46:17 INFO Connected to MongoDB successfully!
+2023-12-18 16:46:17 INFO Today's Date: 2023-12-18 11:16:17.753992+00:00
+2023-12-18 16:46:18 INFO Generated Query: {'Work_Anniversary': {'$gte': datetime.datetime(2023, 12, 18, 11, 16, 17, 753992, tzinfo=datetime.timezone.utc)}}
+2023-12-18 16:46:18 INFO Found 11 documents to process for today's work anniversaries.
+2023-12-18 16:46:18 INFO Processing document for employee: Shivani Thakral (2023-12-20 00:00:00)
+2023-12-18 16:49:22 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:49:23 INFO Connected to MongoDB successfully!
+2023-12-18 16:49:23 INFO Found 0 documents to process for today's work anniversaries.
+2023-12-18 16:49:23 INFO Total execution time: 0.85 seconds
+2023-12-18 16:49:23 INFO WBZ Work_Anniversary Greetings Automation Process has been completed on WBZ-IN-C626G63.
+
+
+**************
+
+
+2023-12-18 16:52:31 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:52:32 INFO Connected to MongoDB successfully!
+2023-12-18 16:52:32 INFO Today's Date: 2023-12-18T11:22:32.359440+00:00
+2023-12-18 16:52:32 INFO Generated Query: {'Work_Anniversary': {'$gte': '2023-12-18T11:22:32.359440+00:00'}}
+2023-12-18 16:52:32 INFO Found 0 documents to process for today's work anniversaries.
+2023-12-18 16:52:32 INFO Total execution time: 0.89 seconds
+2023-12-18 16:52:32 INFO WBZ Work_Anniversary Greetings Automation Process has been completed on WBZ-IN-C626G63.
+2023-12-18 16:53:50 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:53:51 INFO Connected to MongoDB successfully!
+2023-12-18 16:53:51 INFO Today's Date: 2023-12-18T11:23:51.345160+00:00
+2023-12-18 16:53:51 INFO Generated Query: {'Work_Anniversary': '2023-12-18T00:00:00.000+00:00'}
+2023-12-18 16:53:51 INFO Found 0 documents to process for today's work anniversaries.
+2023-12-18 16:53:52 INFO Total execution time: 1.11 seconds
+2023-12-18 16:53:52 INFO WBZ Work_Anniversary Greetings Automation Process has been completed on WBZ-IN-C626G63.
+2023-12-18 16:57:22 INFO WBZ Work_Anniversary Greetings Automation Process has started on WBZ-IN-C626G63.
+2023-12-18 16:57:22 INFO Connected to MongoDB successfully!
+2023-12-18 16:57:22 INFO Today's Date: 2023-12-18T11:27:22.350056Z
+2023-12-18 16:57:22 INFO Generated Query: {'Work_Anniversary': {'$gte': '2023-12-18T11:27:22.350056Z'}}
+2023-12-18 16:57:22 INFO Found 0 documents to process for today's work anniversaries.
+2023-12-18 16:57:22 INFO Total execution time: 0.76 seconds
+2023-12-18 16:57:22 INFO WBZ Work_Anniversary Greetings Automation Process has been completed on WBZ-IN-C626G63.
